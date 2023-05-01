@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
-    on 四月 26, 2023, at 10:53
+    on 五月 01, 2023, at 17:41
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -54,7 +54,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='C:\\Users\\jimmy\\OneDrive\\桌面\\time_exp\\time_sound_lastrun.py',
+    originPath='D:\\程式\\psychopy\\time_exp\\timeperception\\time_sound.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -280,7 +280,7 @@ for thisTrial in trials:
     routineForceEnded = False
     # update component parameters for each repeat
     sound_1.setSound('sound/ding.mp3', secs=1.0, hamming=True)
-    sound_1.setVolume(5.0, log=False)
+    sound_1.setVolume(1.0, log=False)
     # keep track of which components have finished
     blank_1000Components = [textblank1000, sound_1]
     for thisComponent in blank_1000Components:
