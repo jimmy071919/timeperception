@@ -1,0 +1,429 @@
+3.8268 	WARNING 	Font Manager failed to load file C:\Users\jimmy\AppData\Local\Microsoft\Windows\Fonts\複製 -DFFN.TTC
+3.8563 	WARNING 	Font Manager failed to load file C:\Users\jimmy\AppData\Local\Microsoft\Windows\Fonts\wp010-08王漢宗中楷體注音.ttf
+3.9048 	WARNING 	Font Manager failed to load file C:\Users\jimmy\AppData\Local\Microsoft\Windows\Fonts\文鼎花瓣體.TTF
+3.9278 	WARNING 	Font Manager failed to load file C:\Users\jimmy\AppData\Local\Microsoft\Windows\Fonts\華康超特黑體(P).ttc
+3.9416 	WARNING 	Font Manager failed to load file C:\Users\jimmy\AppData\Local\Microsoft\Windows\Fonts\文鼎粗行楷.TTF
+3.9440 	WARNING 	Font Manager failed to load file C:\Users\jimmy\AppData\Local\Microsoft\Windows\Fonts\華康超特明體(P).ttc
+3.9738 	WARNING 	Font Manager failed to load file C:\Users\jimmy\AppData\Local\Microsoft\Windows\Fonts\華康童童體(P).TTC
+3.9852 	WARNING 	Font Manager failed to load file C:\Users\jimmy\AppData\Local\Microsoft\Windows\Fonts\華康娃娃體.TTC
+4.1458 	WARNING 	Font Manager failed to load file C:\Users\jimmy\AppData\Local\Microsoft\Windows\Fonts\文鼎古印體.TTF
+4.1626 	WARNING 	Font Manager failed to load file C:\Users\jimmy\AppData\Local\Microsoft\Windows\Fonts\文鼎勘亭.TTF
+4.2607 	WARNING 	Font Manager failed to load file C:\Users\jimmy\AppData\Local\Microsoft\Windows\Fonts\文鼎海報體.TTF
+4.3667 	WARNING 	Font Manager failed to load file C:\Users\jimmy\AppData\Local\Microsoft\Windows\Fonts\wp010-05王漢宗中明體注音.ttf
+4.3730 	WARNING 	Font Manager failed to load file C:\Users\jimmy\AppData\Local\Microsoft\Windows\Fonts\複製 -DFFN_0.TTC
+4.3789 	WARNING 	Font Manager failed to load file C:\Users\jimmy\AppData\Local\Microsoft\Windows\Fonts\華康超特圓體(P).ttc
+4.3858 	WARNING 	Font Manager failed to load file C:\Users\jimmy\AppData\Local\Microsoft\Windows\Fonts\文鼎新藝體.TTF
+4.8027 	WARNING 	Font Manager failed to load file C:\Users\jimmy\AppData\Local\Microsoft\Windows\Fonts\複製 -DFFN.TTC
+4.8279 	WARNING 	Font Manager failed to load file C:\Users\jimmy\AppData\Local\Microsoft\Windows\Fonts\wp010-08王漢宗中楷體注音.ttf
+4.8692 	WARNING 	Font Manager failed to load file C:\Users\jimmy\AppData\Local\Microsoft\Windows\Fonts\文鼎花瓣體.TTF
+4.8904 	WARNING 	Font Manager failed to load file C:\Users\jimmy\AppData\Local\Microsoft\Windows\Fonts\華康超特黑體(P).ttc
+4.9028 	WARNING 	Font Manager failed to load file C:\Users\jimmy\AppData\Local\Microsoft\Windows\Fonts\文鼎粗行楷.TTF
+4.9051 	WARNING 	Font Manager failed to load file C:\Users\jimmy\AppData\Local\Microsoft\Windows\Fonts\華康超特明體(P).ttc
+4.9304 	WARNING 	Font Manager failed to load file C:\Users\jimmy\AppData\Local\Microsoft\Windows\Fonts\華康童童體(P).TTC
+4.9398 	WARNING 	Font Manager failed to load file C:\Users\jimmy\AppData\Local\Microsoft\Windows\Fonts\華康娃娃體.TTC
+5.0718 	WARNING 	Font Manager failed to load file C:\Users\jimmy\AppData\Local\Microsoft\Windows\Fonts\文鼎古印體.TTF
+5.0850 	WARNING 	Font Manager failed to load file C:\Users\jimmy\AppData\Local\Microsoft\Windows\Fonts\文鼎勘亭.TTF
+5.1539 	WARNING 	Font Manager failed to load file C:\Users\jimmy\AppData\Local\Microsoft\Windows\Fonts\文鼎海報體.TTF
+5.2235 	WARNING 	Font Manager failed to load file C:\Users\jimmy\AppData\Local\Microsoft\Windows\Fonts\wp010-05王漢宗中明體注音.ttf
+5.2282 	WARNING 	Font Manager failed to load file C:\Users\jimmy\AppData\Local\Microsoft\Windows\Fonts\複製 -DFFN_0.TTC
+5.2337 	WARNING 	Font Manager failed to load file C:\Users\jimmy\AppData\Local\Microsoft\Windows\Fonts\華康超特圓體(P).ttc
+5.2376 	WARNING 	Font Manager failed to load file C:\Users\jimmy\AppData\Local\Microsoft\Windows\Fonts\文鼎新藝體.TTF
+10.2686 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [2736, 1824]. Using actual size
+12.2064 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000019D6BDE2EB0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000019D6CEA1D30>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([2736, 1824]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+12.2065 	EXP 	window1: mouseVisible = True
+12.2067 	EXP 	window1: mouseVisible = False
+12.2067 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+12.2067 	EXP 	window1: recordFrameIntervals = False
+12.3722 	EXP 	window1: recordFrameIntervals = True
+12.5562 	EXP 	Screen (0) actual frame rate measured at 60.11Hz
+12.5562 	EXP 	window1: recordFrameIntervals = False
+15.5930 	EXP 	Created textWelcomeMessage = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textWelcomeMessage', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='歡迎來到本次的實驗\n\n請按"空白鍵"開始實驗', units='height', win=Window(...), wrapWidth=1)
+15.5975 	EXP 	Created textblank1000 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textblank1000', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+15.6105 	EXP 	Created emopic = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='emopic', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+15.6111 	EXP 	Created textreproductionstart = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textreproductionstart', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+15.6179 	EXP 	window1: mouseVisible = True
+16.0312 	EXP 	Created scale = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=list(...), lineColor=None, markerColor=None, name='scale', opacity=None, ori=0.0, pos=array([ 0. , -0.2]), readOnly=False, self=UNKNOWN, size=array([1.3 , 0.03]), startValue=None, style='rating', styleTweaks=[], ticks=ndarray(...), units='height', win=Window(...))
+16.0629 	EXP 	Created textEndMessage = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textEndMessage', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='本次實驗到此結束\n\n感謝您的參與', units='height', win=Window(...), wrapWidth=1)
+16.0782 	EXP 	scale: autoLog = True
+16.0782 	EXP 	scale: markerPos = None
+16.0782 	EXP 	scale: styleTweaks = []
+16.0782 	EXP 	scale: styleTweaks = []
+16.0782 	EXP 	scale: styleTweaks = []
+16.0782 	EXP 	scale: styleTweaks = []
+16.0782 	EXP 	scale: contrast = 1.0
+16.0782 	EXP 	scale: autoLog = True
+16.0782 	EXP 	textWelcomeMessage: autoDraw = True
+17.3002 	EXP 	Imported pic_condition.xlsx as conditions, 4 conditions, 2 params
+17.3007 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+17.3009 	EXP 	New trial (rep=0, index=0): {'emo_pic': 'emo_pic\\rdt-20210516-0143118280534424875981353.jpg', 'duration': 5}
+17.3088 	EXP 	textWelcomeMessage: autoDraw = False
+17.3088 	EXP 	textblank1000: autoDraw = True
+17.3460 	DATA 	KeyPress:  
+18.3818 	EXP 	textblank1000: autoDraw = False
+18.3818 	EXP 	textblank1000: autoDraw = False
+18.3818 	EXP 	emopic: image = 'emo_pic\\rdt-20210516-0143118280534424875981353.jpg'
+18.3818 	EXP 	emopic: autoDraw = True
+23.4822 	EXP 	emopic: autoDraw = False
+23.4822 	EXP 	emopic: autoDraw = False
+23.4822 	EXP 	textreproductionstart: height = 0.05
+23.4822 	EXP 	textreproductionstart: height = 0.05
+23.4822 	EXP 	textreproductionstart: height = 0.05
+23.4822 	EXP 	textreproductionstart: text = '時間估計作業\n請透過滑鼠將刺激呈現時間點在以下量尺中\n按下空白鍵進入下一題'
+23.4822 	EXP 	scale: markerPos = None
+23.4822 	EXP 	scale: markerPos = None
+23.4822 	EXP 	textreproductionstart: autoDraw = True
+23.4822 	EXP 	scale: autoDraw = True
+28.2796 	DATA 	Mouse: Left button down, pos=(226,523)
+28.3030 	EXP 	scale: markerPos = 0.18387314439946068
+28.3218 	EXP 	scale: markerPos = 0.18387314439946068
+28.3433 	EXP 	scale: markerPos = 0.18387314439946068
+28.3633 	EXP 	scale: markerPos = 0.2640013495276661
+28.3823 	EXP 	scale: markerPos = 0.3019568151147106
+28.4021 	EXP 	scale: markerPos = 0.41160593792172795
+28.4242 	EXP 	scale: markerPos = 0.5212550607287453
+28.4545 	EXP 	scale: markerPos = 0.7574224021592446
+28.4752 	EXP 	scale: markerPos = 1.061066126855601
+28.4960 	EXP 	scale: markerPos = 1.293016194331984
+28.5205 	EXP 	scale: markerPos = 1.4743589743589747
+28.5410 	EXP 	scale: markerPos = 1.8412618083670718
+28.5633 	EXP 	scale: markerPos = 2.1322537112010798
+28.5825 	EXP 	scale: markerPos = 2.4527665317139
+28.6019 	EXP 	scale: markerPos = 2.8787112010796223
+28.6209 	EXP 	scale: markerPos = 3.085357624831309
+28.6427 	EXP 	scale: markerPos = 3.275134952766532
+28.6648 	EXP 	scale: markerPos = 3.351045883940621
+28.6864 	EXP 	scale: markerPos = 3.418522267206478
+28.7072 	EXP 	scale: markerPos = 3.4649122807017547
+28.7298 	EXP 	scale: markerPos = 3.5408232118758436
+28.7504 	EXP 	scale: markerPos = 3.595647773279352
+28.7719 	EXP 	scale: markerPos = 3.637820512820513
+28.7933 	EXP 	scale: markerPos = 3.7052968960863697
+28.8147 	EXP 	scale: markerPos = 3.7601214574898787
+28.8435 	EXP 	scale: markerPos = 3.8824224021592446
+28.8658 	EXP 	scale: markerPos = 4.1396761133603235
+28.8875 	EXP 	scale: markerPos = 4.367408906882591
+28.9083 	EXP 	scale: markerPos = 4.620445344129554
+28.9344 	EXP 	scale: markerPos = 4.671052631578948
+28.9563 	EXP 	scale: markerPos = 4.915654520917679
+28.9788 	EXP 	scale: markerPos = 5.1644736842105265
+29.0009 	EXP 	scale: markerPos = 5.358468286099864
+29.0229 	EXP 	scale: markerPos = 5.539811066126855
+29.0460 	EXP 	scale: markerPos = 5.632591093117409
+29.0681 	EXP 	scale: markerPos = 5.9826248313090415
+29.0910 	EXP 	scale: markerPos = 6.366396761133604
+29.1109 	EXP 	scale: markerPos = 6.661605937921728
+29.1297 	EXP 	scale: markerPos = 6.788124156545209
+29.1496 	EXP 	scale: markerPos = 6.948380566801619
+29.1700 	EXP 	scale: markerPos = 7.070681511470984
+29.1915 	EXP 	scale: markerPos = 7.2562415654520915
+29.2133 	EXP 	scale: markerPos = 7.4839743589743595
+29.2329 	EXP 	scale: markerPos = 7.745445344129554
+29.2545 	EXP 	scale: markerPos = 7.829790823211875
+29.2742 	EXP 	scale: markerPos = 7.901484480431849
+29.2945 	EXP 	scale: markerPos = 7.990047233468286
+29.3161 	EXP 	scale: markerPos = 8.39068825910931
+29.3381 	EXP 	scale: markerPos = 8.846153846153847
+29.3610 	EXP 	scale: markerPos = 9.137145748987853
+29.3800 	EXP 	scale: markerPos = 9.284750337381915
+29.3989 	EXP 	scale: markerPos = 9.284750337381915
+29.4164 	EXP 	scale: markerPos = 9.284750337381915
+29.4360 	EXP 	scale: markerPos = 9.284750337381915
+29.4546 	EXP 	scale: markerPos = 9.284750337381915
+29.4759 	EXP 	scale: markerPos = 9.284750337381915
+29.4976 	EXP 	scale: markerPos = 9.348009446693657
+29.5196 	EXP 	scale: markerPos = 9.445006747638326
+29.5408 	EXP 	scale: markerPos = 9.537786774628879
+29.5598 	EXP 	scale: markerPos = 9.554655870445343
+29.5797 	EXP 	scale: markerPos = 9.554655870445343
+29.5984 	EXP 	scale: markerPos = 9.554655870445343
+29.6221 	EXP 	scale: markerPos = 9.567307692307692
+29.6445 	EXP 	scale: markerPos = 9.617914979757085
+29.6654 	EXP 	scale: markerPos = 9.668522267206477
+29.6869 	EXP 	scale: markerPos = 9.67695681511471
+29.7058 	EXP 	scale: markerPos = 9.68539136302294
+29.7271 	EXP 	scale: markerPos = 9.68539136302294
+29.7492 	EXP 	scale: markerPos = 9.748650472334683
+29.7721 	EXP 	scale: markerPos = 9.79504048582996
+29.7910 	EXP 	scale: markerPos = 9.845647773279351
+29.8104 	EXP 	scale: markerPos = 9.845647773279351
+29.8316 	EXP 	scale: markerPos = 9.854082321187583
+29.8504 	EXP 	scale: markerPos = 9.875168690958166
+29.8688 	EXP 	scale: markerPos = 9.896255060728745
+29.8884 	EXP 	scale: markerPos = 9.904689608636977
+29.9096 	EXP 	scale: markerPos = 9.913124156545209
+29.9302 	EXP 	scale: markerPos = 9.942645074224021
+29.9511 	EXP 	scale: markerPos = 9.951079622132253
+29.9699 	EXP 	scale: markerPos = 9.959514170040485
+29.9896 	EXP 	scale: markerPos = 9.972165991902832
+30.0081 	EXP 	scale: markerPos = 9.980600539811066
+30.0283 	EXP 	scale: markerPos = 9.980600539811066
+30.0518 	EXP 	scale: markerPos = 10.001686909581647
+30.0713 	EXP 	scale: markerPos = 10.01855600539811
+30.0910 	EXP 	scale: markerPos = 10.01855600539811
+30.1096 	EXP 	scale: markerPos = 10.02699055330634
+30.1276 	EXP 	scale: markerPos = 10.02699055330634
+30.1468 	EXP 	scale: markerPos = 10.02699055330634
+30.1684 	EXP 	scale: markerPos = 10.02699055330634
+30.1880 	EXP 	scale: markerPos = 10.001686909581647
+30.2103 	EXP 	scale: markerPos = 9.866734143049932
+30.2320 	EXP 	scale: markerPos = 9.34379217273954
+30.2517 	EXP 	scale: markerPos = 8.643724696356275
+30.2742 	EXP 	scale: markerPos = 8.238866396761132
+30.2970 	EXP 	scale: markerPos = 7.551450742240215
+30.3169 	EXP 	scale: markerPos = 6.653171390013495
+30.3365 	EXP 	scale: markerPos = 6.252530364372469
+30.3577 	EXP 	scale: markerPos = 5.219298245614034
+30.3779 	EXP 	scale: markerPos = 4.734311740890688
+30.4015 	EXP 	scale: markerPos = 3.9372469635627527
+30.4238 	EXP 	scale: markerPos = 3.3721322537112015
+30.4444 	EXP 	scale: markerPos = 3.131747638326586
+30.4655 	EXP 	scale: markerPos = 2.963056680161944
+30.4886 	EXP 	scale: markerPos = 2.8407557354925776
+30.5089 	EXP 	scale: markerPos = 2.6804993252361675
+30.5290 	EXP 	scale: markerPos = 2.494939271255061
+30.5487 	EXP 	scale: markerPos = 2.3726383265856956
+30.5689 	EXP 	scale: markerPos = 2.094298245614035
+30.5902 	EXP 	scale: markerPos = 1.8792172739541164
+30.6117 	EXP 	scale: markerPos = 1.7822199730094468
+30.6348 	EXP 	scale: markerPos = 1.69365721997301
+30.6574 	EXP 	scale: markerPos = 1.546052631578948
+30.6797 	EXP 	scale: markerPos = 1.4068825910931175
+30.7027 	EXP 	scale: markerPos = 1.3183198380566807
+30.7249 	EXP 	scale: markerPos = 1.1622807017543861
+30.7468 	EXP 	scale: markerPos = 0.8797233468286103
+30.7680 	EXP 	scale: markerPos = 0.5592105263157898
+30.7903 	EXP 	scale: markerPos = 0.30617408906882637
+30.8211 	EXP 	scale: markerPos = 0.1248313090418357
+30.8423 	EXP 	scale: markerPos = 0.0784412955465591
+30.8601 	EXP 	scale: markerPos = 0.0784412955465591
+30.8794 	EXP 	scale: markerPos = 0.0784412955465591
+30.8981 	EXP 	scale: markerPos = 0.0784412955465591
+30.9159 	EXP 	scale: markerPos = 0.0784412955465591
+30.9336 	EXP 	scale: markerPos = 0.0784412955465591
+30.9520 	EXP 	scale: markerPos = 0.0784412955465591
+30.9723 	EXP 	scale: markerPos = 0.0784412955465591
+30.9937 	EXP 	scale: markerPos = 0.0784412955465591
+31.0153 	EXP 	scale: markerPos = 0.06578947368421129
+31.0353 	EXP 	scale: markerPos = 0.06578947368421129
+31.0566 	EXP 	scale: markerPos = 0.09952766531713952
+31.0746 	EXP 	scale: markerPos = 0.11639676113360364
+31.0947 	EXP 	scale: markerPos = 0.129048582995952
+31.1149 	EXP 	scale: markerPos = 0.129048582995952
+31.1346 	EXP 	scale: markerPos = 0.129048582995952
+31.1558 	EXP 	scale: markerPos = 0.129048582995952
+31.1749 	EXP 	scale: markerPos = 0.13748313090418407
+31.1966 	EXP 	scale: markerPos = 0.13748313090418407
+31.2193 	EXP 	scale: markerPos = 0.13748313090418407
+31.2386 	EXP 	scale: markerPos = 0.14591767881241613
+31.2573 	EXP 	scale: markerPos = 0.14591767881241613
+31.2797 	EXP 	scale: markerPos = 0.14591767881241613
+31.3012 	EXP 	scale: markerPos = 0.14591767881241613
+31.3240 	EXP 	scale: markerPos = 0.1585695006747645
+31.3459 	EXP 	scale: markerPos = 0.16700404858299656
+31.3657 	EXP 	scale: markerPos = 0.24291497975708565
+31.3848 	EXP 	scale: markerPos = 0.31460863697705843
+31.4065 	EXP 	scale: markerPos = 0.5212550607287453
+31.4284 	EXP 	scale: markerPos = 0.6857287449392724
+31.4492 	EXP 	scale: markerPos = 0.905026990553307
+31.4707 	EXP 	scale: markerPos = 1.0441970310391375
+31.4967 	EXP 	scale: markerPos = 1.2255398110661275
+31.5278 	EXP 	scale: markerPos = 1.411099865047234
+31.5504 	EXP 	scale: markerPos = 1.643049932523617
+31.5748 	EXP 	scale: markerPos = 1.837044534412956
+31.6016 	EXP 	scale: markerPos = 1.9466936572199733
+31.6284 	EXP 	scale: markerPos = 2.0141700404858303
+31.6589 	EXP 	scale: markerPos = 2.052125506072875
+31.6845 	EXP 	scale: markerPos = 2.1659919028340084
+31.7099 	EXP 	scale: markerPos = 2.3220310391363026
+31.7362 	EXP 	scale: markerPos = 2.9335357624831317
+31.7612 	EXP 	scale: markerPos = 3.270917678812416
+31.7841 	EXP 	scale: markerPos = 3.658906882591093
+31.8074 	EXP 	scale: markerPos = 3.7390350877192984
+31.8332 	EXP 	scale: markerPos = 3.819163292847503
+31.8574 	EXP 	scale: markerPos = 4.152327935222672
+31.8797 	EXP 	scale: markerPos = 5.075910931174089
+31.9000 	EXP 	scale: markerPos = 5.434379217273953
+31.9236 	EXP 	scale: markerPos = 5.721153846153846
+31.9438 	EXP 	scale: markerPos = 5.78019568151147
+31.9642 	EXP 	scale: markerPos = 5.788630229419703
+31.9865 	EXP 	scale: markerPos = 5.805499325236168
+32.0076 	EXP 	scale: markerPos = 5.910931174089069
+32.0269 	EXP 	scale: markerPos = 6.0964912280701755
+32.0487 	EXP 	scale: markerPos = 6.185053981106613
+32.0673 	EXP 	scale: markerPos = 6.353744939271255
+32.0889 	EXP 	scale: markerPos = 6.387483130904183
+32.1091 	EXP 	scale: markerPos = 6.518218623481782
+32.1309 	EXP 	scale: markerPos = 6.623650472334682
+32.1502 	EXP 	scale: markerPos = 6.817645074224021
+32.1706 	EXP 	scale: markerPos = 7.095985155195681
+32.1911 	EXP 	scale: markerPos = 7.188765182186234
+32.2122 	EXP 	scale: markerPos = 7.488191632928475
+32.2318 	EXP 	scale: markerPos = 7.787618083670715
+32.2491 	EXP 	scale: markerPos = 7.973178137651821
+32.2678 	EXP 	scale: markerPos = 8.032219973009447
+32.2851 	EXP 	scale: markerPos = 8.040654520917679
+32.3026 	EXP 	scale: markerPos = 8.040654520917679
+32.3209 	EXP 	scale: markerPos = 8.040654520917679
+32.3382 	DATA 	Mouse:  Left button up, pos=(2089,580)
+32.3416 	EXP 	scale: markerPos = 8.040654520917679
+32.3616 	EXP 	scale: markerPos = 8.040654520917679
+33.0382 	DATA 	Mouse: Left button down, pos=(2069,557)
+33.0631 	EXP 	scale: markerPos = 7.86774628879892
+33.0842 	EXP 	scale: markerPos = 7.690620782726045
+33.1083 	EXP 	scale: markerPos = 7.526147098515519
+33.1330 	EXP 	scale: markerPos = 7.416497975708501
+33.1561 	EXP 	scale: markerPos = 7.365890688259109
+33.1761 	EXP 	scale: markerPos = 7.336369770580297
+33.1970 	EXP 	scale: markerPos = 7.327935222672064
+33.2221 	EXP 	scale: markerPos = 7.273110661268555
+33.2473 	EXP 	scale: markerPos = 7.2562415654520915
+33.2727 	EXP 	scale: markerPos = 7.184547908232118
+33.2958 	EXP 	scale: markerPos = 7.146592442645074
+33.3205 	EXP 	scale: markerPos = 7.117071524966262
+33.3418 	EXP 	scale: markerPos = 7.087550607287449
+33.3633 	EXP 	scale: markerPos = 7.087550607287449
+33.3840 	EXP 	scale: markerPos = 7.079116059379218
+33.4062 	EXP 	scale: markerPos = 7.079116059379218
+33.4288 	EXP 	scale: markerPos = 7.079116059379218
+33.4512 	EXP 	scale: markerPos = 7.066464237516868
+33.4736 	EXP 	scale: markerPos = 7.066464237516868
+33.5005 	DATA 	Mouse:  Left button up, pos=(1858,522)
+33.5037 	EXP 	scale: markerPos = 7.066464237516868
+33.5318 	EXP 	scale: markerPos = 7.066464237516868
+34.0980 	DATA 	Mouse: Left button down, pos=(1862,541)
+34.1247 	EXP 	scale: markerPos = 7.112854251012145
+34.1445 	EXP 	scale: markerPos = 7.142375168690958
+34.1661 	EXP 	scale: markerPos = 7.159244264507423
+34.1868 	EXP 	scale: markerPos = 7.188765182186234
+34.2067 	EXP 	scale: markerPos = 7.239372469635628
+34.2261 	EXP 	scale: markerPos = 7.281545209176787
+34.2493 	EXP 	scale: markerPos = 7.28997975708502
+34.2777 	EXP 	scale: markerPos = 7.306848852901484
+34.2985 	EXP 	scale: markerPos = 7.357456140350878
+34.3213 	EXP 	scale: markerPos = 7.399628879892037
+34.3430 	EXP 	scale: markerPos = 7.454453441295547
+34.3630 	EXP 	scale: markerPos = 7.4839743589743595
+34.3834 	EXP 	scale: markerPos = 7.4924089068825905
+34.4023 	EXP 	scale: markerPos = 7.509278002699055
+34.4216 	EXP 	scale: markerPos = 7.530364372469636
+34.4404 	EXP 	scale: markerPos = 7.538798920377867
+34.4602 	EXP 	scale: markerPos = 7.538798920377867
+34.4790 	EXP 	scale: markerPos = 7.538798920377867
+34.4996 	EXP 	scale: markerPos = 7.538798920377867
+34.5187 	EXP 	scale: markerPos = 7.538798920377867
+34.5377 	EXP 	scale: markerPos = 7.538798920377867
+34.5416 	DATA 	Mouse:  Left button up, pos=(1970,543)
+34.5594 	EXP 	scale: markerPos = 7.538798920377867
+36.8803 	DATA 	Mouse: Left button down, pos=(1964,540)
+36.8984 	EXP 	scale: markerPos = 7.51349527665317
+36.9171 	EXP 	scale: markerPos = 7.51349527665317
+36.9389 	EXP 	scale: markerPos = 7.51349527665317
+36.9602 	EXP 	scale: markerPos = 7.462887989203778
+36.9812 	EXP 	scale: markerPos = 7.323717948717948
+37.0063 	EXP 	scale: markerPos = 7.235155195681511
+37.0263 	EXP 	scale: markerPos = 7.079116059379218
+37.0456 	EXP 	scale: markerPos = 6.9694669365722
+37.0667 	EXP 	scale: markerPos = 6.931511470985154
+37.0859 	EXP 	scale: markerPos = 6.762820512820513
+37.1056 	EXP 	scale: markerPos = 6.6869095816464235
+37.1255 	EXP 	scale: markerPos = 6.661605937921728
+37.1459 	EXP 	scale: markerPos = 6.530870445344129
+37.1666 	EXP 	scale: markerPos = 6.421221322537112
+37.1869 	EXP 	scale: markerPos = 6.370614035087719
+37.2086 	EXP 	scale: markerPos = 6.303137651821862
+37.2293 	EXP 	scale: markerPos = 6.235661268556005
+37.2483 	EXP 	scale: markerPos = 6.218792172739541
+37.2676 	EXP 	scale: markerPos = 6.206140350877193
+37.2874 	EXP 	scale: markerPos = 6.189271255060729
+37.3055 	EXP 	scale: markerPos = 6.159750337381916
+37.3253 	EXP 	scale: markerPos = 6.138663967611336
+37.3436 	EXP 	scale: markerPos = 6.138663967611336
+37.3625 	EXP 	scale: markerPos = 6.138663967611336
+37.3811 	EXP 	scale: markerPos = 6.138663967611336
+37.3991 	EXP 	scale: markerPos = 6.138663967611336
+37.4177 	EXP 	scale: markerPos = 6.138663967611336
+37.4365 	EXP 	scale: markerPos = 6.138663967611336
+37.4558 	EXP 	scale: markerPos = 6.138663967611336
+37.4736 	EXP 	scale: markerPos = 6.138663967611336
+37.4931 	EXP 	scale: markerPos = 6.138663967611336
+37.5124 	EXP 	scale: markerPos = 6.138663967611336
+37.5310 	EXP 	scale: markerPos = 6.138663967611336
+37.5497 	EXP 	scale: markerPos = 6.130229419703104
+37.5684 	EXP 	scale: markerPos = 6.130229419703104
+37.5886 	EXP 	scale: markerPos = 6.130229419703104
+37.6073 	EXP 	scale: markerPos = 6.130229419703104
+37.6286 	EXP 	scale: markerPos = 6.130229419703104
+37.6504 	EXP 	scale: markerPos = 6.130229419703104
+37.6804 	EXP 	scale: markerPos = 6.130229419703104
+37.7029 	EXP 	scale: markerPos = 6.130229419703104
+37.7258 	EXP 	scale: markerPos = 6.130229419703104
+37.7473 	EXP 	scale: markerPos = 6.130229419703104
+37.7681 	EXP 	scale: markerPos = 6.130229419703104
+37.7940 	EXP 	scale: markerPos = 6.130229419703104
+37.8184 	EXP 	scale: markerPos = 6.1555330634278
+37.8398 	EXP 	scale: markerPos = 6.1555330634278
+37.8633 	EXP 	scale: markerPos = 6.1555330634278
+37.8839 	EXP 	scale: markerPos = 6.163967611336032
+37.9016 	EXP 	scale: markerPos = 6.172402159244265
+37.9217 	EXP 	scale: markerPos = 6.172402159244265
+37.9426 	EXP 	scale: markerPos = 6.185053981106613
+37.9629 	EXP 	scale: markerPos = 6.185053981106613
+37.9817 	EXP 	scale: markerPos = 6.185053981106613
+38.0029 	EXP 	scale: markerPos = 6.185053981106613
+38.0260 	EXP 	scale: markerPos = 6.185053981106613
+38.0511 	EXP 	scale: markerPos = 6.185053981106613
+38.0758 	EXP 	scale: markerPos = 6.185053981106613
+38.0985 	EXP 	scale: markerPos = 6.185053981106613
+38.1215 	EXP 	scale: markerPos = 6.185053981106613
+38.1395 	EXP 	scale: markerPos = 6.185053981106613
+38.1565 	EXP 	scale: markerPos = 6.185053981106613
+38.1742 	EXP 	scale: markerPos = 6.185053981106613
+38.1923 	EXP 	scale: markerPos = 6.185053981106613
+38.2105 	EXP 	scale: markerPos = 6.185053981106613
+38.2294 	EXP 	scale: markerPos = 6.185053981106613
+38.2485 	EXP 	scale: markerPos = 6.185053981106613
+38.2681 	EXP 	scale: markerPos = 6.185053981106613
+38.2876 	EXP 	scale: markerPos = 6.185053981106613
+38.3073 	EXP 	scale: markerPos = 6.185053981106613
+38.3278 	EXP 	scale: markerPos = 6.185053981106613
+38.3472 	EXP 	scale: markerPos = 6.185053981106613
+38.3675 	EXP 	scale: markerPos = 6.185053981106613
+38.3900 	EXP 	scale: markerPos = 6.185053981106613
+38.4109 	EXP 	scale: markerPos = 6.185053981106613
+38.4300 	EXP 	scale: markerPos = 6.185053981106613
+38.4505 	EXP 	scale: markerPos = 6.185053981106613
+38.4694 	EXP 	scale: markerPos = 6.185053981106613
+38.4891 	EXP 	scale: markerPos = 6.185053981106613
+38.5085 	EXP 	scale: markerPos = 6.185053981106613
+38.5261 	EXP 	scale: markerPos = 6.185053981106613
+38.5445 	EXP 	scale: markerPos = 6.185053981106613
+38.5626 	EXP 	scale: markerPos = 6.185053981106613
+38.5811 	EXP 	scale: markerPos = 6.185053981106613
+38.5991 	EXP 	scale: markerPos = 6.185053981106613
+38.6176 	EXP 	scale: markerPos = 6.185053981106613
+38.6363 	EXP 	scale: markerPos = 6.185053981106613
+38.6556 	EXP 	scale: markerPos = 6.185053981106613
+38.6729 	EXP 	scale: markerPos = 6.185053981106613
+38.6902 	EXP 	scale: markerPos = 6.185053981106613
+38.7077 	EXP 	scale: markerPos = 6.185053981106613
+38.7263 	EXP 	scale: markerPos = 6.185053981106613
+38.7445 	EXP 	scale: markerPos = 6.185053981106613
+38.7640 	EXP 	scale: markerPos = 6.185053981106613
+38.7826 	EXP 	scale: markerPos = 6.185053981106613
+38.8009 	EXP 	scale: markerPos = 6.185053981106613
+38.8199 	EXP 	scale: markerPos = 6.185053981106613
+38.8374 	EXP 	scale: markerPos = 6.185053981106613
+38.8561 	EXP 	scale: markerPos = 6.185053981106613
+38.8731 	EXP 	scale: markerPos = 6.185053981106613
+38.8925 	EXP 	scale: markerPos = 6.185053981106613
+38.9114 	EXP 	scale: markerPos = 6.185053981106613
+38.9298 	EXP 	scale: markerPos = 6.185053981106613
+38.9487 	EXP 	scale: markerPos = 6.185053981106613
+38.9672 	EXP 	scale: markerPos = 6.185053981106613
+38.9853 	EXP 	scale: markerPos = 6.185053981106613
+39.0041 	EXP 	scale: markerPos = 6.185053981106613
+39.0209 	DATA 	Mouse:  Left button up, pos=(1649,517)
+39.0237 	EXP 	scale: markerPos = 6.185053981106613
+39.0433 	EXP 	scale: markerPos = 6.185053981106613
+41.0475 	DATA 	Keypress: escape
+42.9117 	EXP 	window1: mouseVisible = True
