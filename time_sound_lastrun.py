@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
@@ -136,8 +136,9 @@ textreproductionstart = visual.TextStim(win=win, name='textreproductionstart',
     languageStyle='LTR',
     depth=0.0);
 scale = visual.Slider(win=win, name='scale',
-    startValue=None, size=(1.0, 0.1), pos=(0, -0.4), units=None,
-    labels=None, ticks=(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), granularity=0.0,
+    startValue=None, size=(1.3, 0.03), pos=(0, -0.2), units=None,
+    labels=['0','1','2','3','4','5','6','7','8','9','10','11','12','13','14','15'],
+    ticks=(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,11,12,13,14,15), granularity=0.0,
     style='rating', styleTweaks=(), opacity=None,
     labelColor='LightGray', markerColor='Red', lineColor='White', colorSpace='rgb',
     font='Open Sans', labelHeight=0.05,
