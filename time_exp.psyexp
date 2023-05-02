@@ -191,7 +191,7 @@
         <Param val="True" valType="bool" updates="constant" name="hamming"/>
         <Param val="sound_1" valType="code" updates="None" name="name"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="sound/n6xed-0sufb (mp3cut.net).wav" valType="str" updates="set every repeat" name="sound"/>
+        <Param val="sound/trueding.wav" valType="str" updates="set every repeat" name="sound"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
@@ -415,7 +415,7 @@
     <Routine name="Welcome"/>
     <LoopInitiator loopType="TrialHandler" name="trials">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
-      <Param name="conditions" updates="None" val="[{'emo_pic': 'C:\\Users\\user\\Desktop\\time_exp\\emo_pic\\EBPgLdJe_400x400.png', 'duration': 1}, {'emo_pic': 'C:\\Users\\user\\Desktop\\time_exp\\emo_pic\\FBgs1RAVEAAo9TV.jpg', 'duration': 3}, {'emo_pic': 'C:\\Users\\user\\Desktop\\time_exp\\emo_pic\\rdt-20210516-0143118280534424875981353.jpg', 'duration': 5}, {'emo_pic': 'C:\\Users\\user\\Desktop\\time_exp\\emo_pic\\S__42811412.jpg', 'duration': 7}]" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'emo_pic': 'emo_pic\\EBPgLdJe_400x400.png', 'duration': 1}, {'emo_pic': 'emo_pic\\FBgs1RAVEAAo9TV.jpg', 'duration': 3}, {'emo_pic': 'emo_pic\\rdt-20210516-0143118280534424875981353.jpg', 'duration': 5}, {'emo_pic': 'emo_pic\\S__42811412.jpg', 'duration': 7}]" valType="str"/>
       <Param name="conditionsFile" updates="None" val="pic_condition.xlsx" valType="file"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
