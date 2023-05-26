@@ -1,8 +1,8 @@
-#!/usr/bin/env python
+﻿#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
-    on 五月 02, 2023, at 12:09
+    on 五月 03, 2023, at 12:29
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -54,7 +54,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='C:\\Users\\user\\Desktop\\time_exp\\time_exp.py',
+    originPath='D:\\程式\\psychopy\\time_per\\timeperception\\time_exp.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -68,7 +68,7 @@ frameTolerance = 0.001  # how close to onset before 'same' frame
 
 # --- Setup the Window ---
 win = visual.Window(
-    size=(1024, 768), fullscr=True, screen=0, 
+    size=[1280, 720], fullscr=True, screen=0, 
     winType='pyglet', allowStencil=False,
     monitor='testMonitor', color=[0,0,0], colorSpace='rgb',
     blendMode='avg', useFBO=True, 
@@ -137,8 +137,7 @@ textreproductionstart = visual.TextStim(win=win, name='textreproductionstart',
     depth=0.0);
 scale = visual.Slider(win=win, name='scale',
     startValue=None, size=(1.2, 0.04), pos=(0, -0.2), units=None,
-    labels=['0','1','2','3','4','5','6','7','8','9','10','11','12','13','14','15'], 
-    ticks=(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15), granularity=0.0,
+    labels=['0','1','2','3','4','5','6','7','8','9','10','11','12','13','14','15'], ticks=(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15), granularity=0.0,
     style='rating', styleTweaks=('triangleMarker',), opacity=None,
     labelColor='LightGray', markerColor='Red', lineColor='White', colorSpace='rgb',
     font='Open Sans', labelHeight=0.04,
@@ -295,7 +294,7 @@ for thisTrial in trials:
     continueRoutine = True
     routineForceEnded = False
     # update component parameters for each repeat
-    sound_1.setSound('sound/n6xed-0sufb (mp3cut.net).wav', secs=1.0, hamming=True)
+    sound_1.setSound('sound/trueding.wav', secs=1.0, hamming=True)
     sound_1.setVolume(1.0, log=False)
     # keep track of which components have finished
     blank_1000Components = [textblank1000, sound_1]
@@ -591,7 +590,7 @@ for thisTrial in trials:
     frameN = -1
     
     # --- Run Routine "rest" ---
-    while continueRoutine and routineTimer.getTime() < 60.0:
+    while continueRoutine and routineTimer.getTime() < 35.0:
         # get current time
         t = routineTimer.getTime()
         tThisFlip = win.getFutureFlipTime(clock=routineTimer)
@@ -611,7 +610,7 @@ for thisTrial in trials:
             textrest.setAutoDraw(True)
         if textrest.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > textrest.tStartRefresh + 55-frameTolerance:
+            if tThisFlipGlobal > textrest.tStartRefresh + 30-frameTolerance:
                 # keep track of stop time/frame for later
                 textrest.tStop = t  # not accounting for scr refresh
                 textrest.frameNStop = frameN  # exact frame index
@@ -620,7 +619,7 @@ for thisTrial in trials:
                 textrest.setAutoDraw(False)
         
         # *textready* updates
-        if textready.status == NOT_STARTED and tThisFlip >= 55-frameTolerance:
+        if textready.status == NOT_STARTED and tThisFlip >= 30-frameTolerance:
             # keep track of start time/frame for later
             textready.frameNStart = frameN  # exact frame index
             textready.tStart = t  # local t and not account for scr refresh
@@ -665,7 +664,7 @@ for thisTrial in trials:
     if routineForceEnded:
         routineTimer.reset()
     else:
-        routineTimer.addTime(-60.000000)
+        routineTimer.addTime(-35.000000)
     thisExp.nextEntry()
     
 # completed 1.0 repeats of 'trials'
