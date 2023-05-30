@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
-    on 五月 30, 2023, at 11:10
+    on 五月 30, 2023, at 15:09
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -147,7 +147,7 @@ key_next = keyboard.Keyboard()
 
 # --- Initialize components for Routine "rest" ---
 textrest = visual.TextStim(win=win, name='textrest',
-    text='休息20秒\n\n時間結束會自動進入下一題',
+    text='休息30秒\n\n時間結束會自動進入下一題',
     font='Open Sans',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
@@ -215,7 +215,7 @@ key_next = keyboard.Keyboard()
 
 # --- Initialize components for Routine "rest" ---
 textrest = visual.TextStim(win=win, name='textrest',
-    text='休息20秒\n\n時間結束會自動進入下一題',
+    text='休息30秒\n\n時間結束會自動進入下一題',
     font='Open Sans',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
@@ -535,7 +535,7 @@ for thisPra_trial in pra_trials:
     continueRoutine = True
     routineForceEnded = False
     # update component parameters for each repeat
-    textreproductionstart.setText('時間估計作業\n請透過滑鼠將刺激呈現時間點在以下量尺中\n按下空白鍵進入下一題')
+    textreproductionstart.setText('時間估計作業\n\n請透過滑鼠將刺激呈現時間點在以下量尺中\n按下空白鍵進入下一題')
     scale.reset()
     key_next.keys = []
     key_next.rt = []
@@ -663,7 +663,7 @@ for thisPra_trial in pra_trials:
     frameN = -1
     
     # --- Run Routine "rest" ---
-    while continueRoutine and routineTimer.getTime() < 20.0:
+    while continueRoutine and routineTimer.getTime() < 30.0:
         # get current time
         t = routineTimer.getTime()
         tThisFlip = win.getFutureFlipTime(clock=routineTimer)
@@ -683,7 +683,7 @@ for thisPra_trial in pra_trials:
             textrest.setAutoDraw(True)
         if textrest.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > textrest.tStartRefresh + 15-frameTolerance:
+            if tThisFlipGlobal > textrest.tStartRefresh + 25-frameTolerance:
                 # keep track of stop time/frame for later
                 textrest.tStop = t  # not accounting for scr refresh
                 textrest.frameNStop = frameN  # exact frame index
@@ -692,7 +692,7 @@ for thisPra_trial in pra_trials:
                 textrest.setAutoDraw(False)
         
         # *textready* updates
-        if textready.status == NOT_STARTED and tThisFlip >= 15-frameTolerance:
+        if textready.status == NOT_STARTED and tThisFlip >= 25-frameTolerance:
             # keep track of start time/frame for later
             textready.frameNStart = frameN  # exact frame index
             textready.tStart = t  # local t and not account for scr refresh
@@ -711,7 +711,7 @@ for thisPra_trial in pra_trials:
                 thisExp.timestampOnFlip(win, 'textready.stopped')
                 textready.setAutoDraw(False)
         # start/stop sound_2
-        if sound_2.status == NOT_STARTED and tThisFlip >= 15-frameTolerance:
+        if sound_2.status == NOT_STARTED and tThisFlip >= 25-frameTolerance:
             # keep track of start time/frame for later
             sound_2.frameNStart = frameN  # exact frame index
             sound_2.tStart = t  # local t and not account for scr refresh
@@ -756,7 +756,7 @@ for thisPra_trial in pra_trials:
     if routineForceEnded:
         routineTimer.reset()
     else:
-        routineTimer.addTime(-20.000000)
+        routineTimer.addTime(-30.000000)
     thisExp.nextEntry()
     
 # completed 1.0 repeats of 'pra_trials'
@@ -1052,7 +1052,7 @@ for thisTrial in trials:
     continueRoutine = True
     routineForceEnded = False
     # update component parameters for each repeat
-    textreproductionstart.setText('時間估計作業\n請透過滑鼠將刺激呈現時間點在以下量尺中\n按下空白鍵進入下一題')
+    textreproductionstart.setText('時間估計作業\n\n請透過滑鼠將刺激呈現時間點在以下量尺中\n按下空白鍵進入下一題')
     scale.reset()
     key_next.keys = []
     key_next.rt = []
@@ -1180,7 +1180,7 @@ for thisTrial in trials:
     frameN = -1
     
     # --- Run Routine "rest" ---
-    while continueRoutine and routineTimer.getTime() < 20.0:
+    while continueRoutine and routineTimer.getTime() < 30.0:
         # get current time
         t = routineTimer.getTime()
         tThisFlip = win.getFutureFlipTime(clock=routineTimer)
@@ -1200,7 +1200,7 @@ for thisTrial in trials:
             textrest.setAutoDraw(True)
         if textrest.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > textrest.tStartRefresh + 15-frameTolerance:
+            if tThisFlipGlobal > textrest.tStartRefresh + 25-frameTolerance:
                 # keep track of stop time/frame for later
                 textrest.tStop = t  # not accounting for scr refresh
                 textrest.frameNStop = frameN  # exact frame index
@@ -1209,7 +1209,7 @@ for thisTrial in trials:
                 textrest.setAutoDraw(False)
         
         # *textready* updates
-        if textready.status == NOT_STARTED and tThisFlip >= 15-frameTolerance:
+        if textready.status == NOT_STARTED and tThisFlip >= 25-frameTolerance:
             # keep track of start time/frame for later
             textready.frameNStart = frameN  # exact frame index
             textready.tStart = t  # local t and not account for scr refresh
@@ -1228,7 +1228,7 @@ for thisTrial in trials:
                 thisExp.timestampOnFlip(win, 'textready.stopped')
                 textready.setAutoDraw(False)
         # start/stop sound_2
-        if sound_2.status == NOT_STARTED and tThisFlip >= 15-frameTolerance:
+        if sound_2.status == NOT_STARTED and tThisFlip >= 25-frameTolerance:
             # keep track of start time/frame for later
             sound_2.frameNStart = frameN  # exact frame index
             sound_2.tStart = t  # local t and not account for scr refresh
@@ -1273,7 +1273,7 @@ for thisTrial in trials:
     if routineForceEnded:
         routineTimer.reset()
     else:
-        routineTimer.addTime(-20.000000)
+        routineTimer.addTime(-30.000000)
     thisExp.nextEntry()
     
 # completed 1.0 repeats of 'trials'
