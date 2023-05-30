@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
-    on 五月 28, 2023, at 20:23
+    on 五月 30, 2023, at 11:10
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -14,6 +14,7 @@ If you publish work using this script the most relevant publication is:
 # --- Import packages ---
 from psychopy import locale_setup
 from psychopy import prefs
+prefs.hardware['audioLib'] = 'ptb'
 from psychopy import sound, gui, visual, core, data, event, logging, clock, colors, layout
 from psychopy.constants import (NOT_STARTED, STARTED, PLAYING, PAUSED,
                                 STOPPED, FINISHED, PRESSED, RELEASED, FOREVER)
@@ -54,7 +55,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='D:\\程式\\psychopy\\time_per\\timeperception\\time_exp_lastrun.py',
+    originPath='C:\\Users\\User\\Documents\\program\\timeperception\\time_exp_lastrun.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -68,7 +69,7 @@ frameTolerance = 0.001  # how close to onset before 'same' frame
 
 # --- Setup the Window ---
 win = visual.Window(
-    size=[1280, 720], fullscr=True, screen=0, 
+    size=[1536, 864], fullscr=True, screen=0, 
     winType='pyglet', allowStencil=False,
     monitor='testMonitor', color=[0,0,0], colorSpace='rgb',
     blendMode='avg', useFBO=True, 
@@ -113,7 +114,7 @@ textblank1000 = visual.TextStim(win=win, name='textblank1000',
     color='white', colorSpace='rgb', opacity=None, 
     languageStyle='LTR',
     depth=0.0);
-sound_1 = sound.Sound('A', secs=1.0, stereo=True, hamming=True,
+sound_1 = sound.Sound('A', secs=1, stereo=True, hamming=True,
     name='sound_1')
 sound_1.setVolume(1.0)
 
@@ -165,7 +166,7 @@ sound_2.setVolume(1.0)
 
 # --- Initialize components for Routine "start" ---
 text = visual.TextStim(win=win, name='text',
-    text='練習階段結束\n\n準備好了請按下"空白鍵"開始正式階段',
+    text='練習階段結束\n\n準備好請按"空白鍵"開始正式階段',
     font='Open Sans',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
@@ -181,7 +182,7 @@ textblank1000 = visual.TextStim(win=win, name='textblank1000',
     color='white', colorSpace='rgb', opacity=None, 
     languageStyle='LTR',
     depth=0.0);
-sound_1 = sound.Sound('A', secs=1.0, stereo=True, hamming=True,
+sound_1 = sound.Sound('A', secs=1, stereo=True, hamming=True,
     name='sound_1')
 sound_1.setVolume(1.0)
 
@@ -365,7 +366,7 @@ for thisPra_trial in pra_trials:
     continueRoutine = True
     routineForceEnded = False
     # update component parameters for each repeat
-    sound_1.setSound('sound/trueding.wav', secs=1.0, hamming=True)
+    sound_1.setSound('sound/trueding.wav', secs=1, hamming=True)
     sound_1.setVolume(1.0, log=False)
     # keep track of which components have finished
     blank_1000Components = [textblank1000, sound_1]
@@ -420,7 +421,7 @@ for thisPra_trial in pra_trials:
             sound_1.play(when=win)  # sync with win flip
         if sound_1.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > sound_1.tStartRefresh + 1.0-frameTolerance:
+            if tThisFlipGlobal > sound_1.tStartRefresh + 1-frameTolerance:
                 # keep track of stop time/frame for later
                 sound_1.tStop = t  # not accounting for scr refresh
                 sound_1.frameNStop = frameN  # exact frame index
@@ -881,7 +882,7 @@ for thisTrial in trials:
     continueRoutine = True
     routineForceEnded = False
     # update component parameters for each repeat
-    sound_1.setSound('sound/trueding.wav', secs=1.0, hamming=True)
+    sound_1.setSound('sound/trueding.wav', secs=1, hamming=True)
     sound_1.setVolume(1.0, log=False)
     # keep track of which components have finished
     blank_1000Components = [textblank1000, sound_1]
@@ -936,7 +937,7 @@ for thisTrial in trials:
             sound_1.play(when=win)  # sync with win flip
         if sound_1.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > sound_1.tStartRefresh + 1.0-frameTolerance:
+            if tThisFlipGlobal > sound_1.tStartRefresh + 1-frameTolerance:
                 # keep track of stop time/frame for later
                 sound_1.tStop = t  # not accounting for scr refresh
                 sound_1.frameNStop = frameN  # exact frame index
