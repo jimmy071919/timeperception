@@ -1,0 +1,1480 @@
+25.4524 	WARNING 	User requested fullscreen with size [1536  864], but screen is actually [1920, 1080]. Using actual size
+26.0500 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001ECACB90BE0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001ECB3024D60>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+26.0501 	EXP 	window1: mouseVisible = True
+26.0501 	EXP 	window1: mouseVisible = False
+26.0501 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+26.0501 	EXP 	window1: recordFrameIntervals = False
+26.2165 	EXP 	window1: recordFrameIntervals = True
+26.3999 	EXP 	Screen (0) actual frame rate measured at 60.00Hz
+26.3999 	EXP 	window1: recordFrameIntervals = False
+28.0686 	EXP 	Created textreproductionstart = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textreproductionstart', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+28.0723 	EXP 	window1: mouseVisible = True
+28.1945 	EXP 	Created scale = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=0.04, labelWrapWidth=None, labels=list(...), lineColor=None, markerColor=None, name='scale', opacity=None, ori=0.0, pos=array([ 0. , -0.2]), readOnly=False, self=UNKNOWN, size=array([1.2 , 0.04]), startValue=None, style='rating', styleTweaks=['triangleMarker'], ticks=ndarray(...), units='height', win=Window(...))
+28.2365 	EXP 	Created textWelcomeMessage = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textWelcomeMessage', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='歡迎來到本次的實驗\n\n請按"空白鍵"開始實驗', units='height', win=Window(...), wrapWidth=1)
+28.2387 	EXP 	Created textblank1000 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textblank1000', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+28.3011 	EXP 	Sound sound_1 set volume 1.000
+28.3119 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.95, 0.7 ]), texRes=128.0, units='height', win=Window(...))
+28.3124 	EXP 	Created textreproductionstart = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textreproductionstart', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+28.3141 	EXP 	window1: mouseVisible = True
+28.3995 	EXP 	Created scale = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=0.04, labelWrapWidth=None, labels=list(...), lineColor=None, markerColor=None, name='scale', opacity=None, ori=0.0, pos=array([ 0. , -0.2]), readOnly=False, self=UNKNOWN, size=array([1.2 , 0.04]), startValue=None, style='rating', styleTweaks=['triangleMarker'], ticks=ndarray(...), units='height', win=Window(...))
+28.4108 	EXP 	Created textrest = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textrest', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='休息時間\n\n時間結束會自動進入下一題', units='height', win=Window(...), wrapWidth=1)
+28.4140 	EXP 	Created textready = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textready', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='即將進入下一題', units='height', win=Window(...), wrapWidth=1)
+28.4151 	EXP 	Sound sound_2 set volume 1.000
+28.4237 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='練習階段結束\n\n準備好請按"空白鍵"開始正式階段', units='height', win=Window(...), wrapWidth=1)
+28.4252 	EXP 	Created textblank1000 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textblank1000', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+28.4263 	EXP 	Sound sound_1 set volume 1.000
+28.4296 	EXP 	Created emopic = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='emopic', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+28.4301 	EXP 	Created textreproductionstart = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textreproductionstart', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+28.4318 	EXP 	window1: mouseVisible = True
+28.5163 	EXP 	Created scale = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=0.04, labelWrapWidth=None, labels=list(...), lineColor=None, markerColor=None, name='scale', opacity=None, ori=0.0, pos=array([ 0. , -0.2]), readOnly=False, self=UNKNOWN, size=array([1.2 , 0.04]), startValue=None, style='rating', styleTweaks=['triangleMarker'], ticks=ndarray(...), units='height', win=Window(...))
+28.5191 	EXP 	Created textrest = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textrest', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='休息時間\n\n時間結束會自動進入下一題', units='height', win=Window(...), wrapWidth=1)
+28.5209 	EXP 	Created textready = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textready', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='即將進入下一題', units='height', win=Window(...), wrapWidth=1)
+28.5221 	EXP 	Sound sound_2 set volume 1.000
+28.5296 	EXP 	Created textEndMessage = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textEndMessage', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='本次實驗到此結束\n\n感謝您的參與', units='height', win=Window(...), wrapWidth=1)
+28.5993 	EXP 	scale: autoLog = True
+28.5993 	EXP 	scale: markerPos = None
+28.5993 	EXP 	scale: styleTweaks = []
+28.5993 	EXP 	scale: styleTweaks = []
+28.5993 	EXP 	scale: styleTweaks = ['triangleMarker']
+28.5993 	EXP 	scale: styleTweaks = ['triangleMarker']
+28.5993 	EXP 	scale: contrast = 1.0
+28.5993 	EXP 	scale: autoLog = True
+28.5993 	EXP 	scale: autoLog = True
+28.5993 	EXP 	scale: markerPos = None
+28.5993 	EXP 	scale: styleTweaks = []
+28.5993 	EXP 	scale: styleTweaks = []
+28.5993 	EXP 	scale: styleTweaks = ['triangleMarker']
+28.5993 	EXP 	scale: styleTweaks = ['triangleMarker']
+28.5993 	EXP 	scale: contrast = 1.0
+28.5993 	EXP 	scale: autoLog = True
+28.5993 	EXP 	scale: autoLog = True
+28.5993 	EXP 	scale: markerPos = None
+28.5993 	EXP 	scale: styleTweaks = []
+28.5993 	EXP 	scale: styleTweaks = []
+28.5993 	EXP 	scale: styleTweaks = ['triangleMarker']
+28.5993 	EXP 	scale: styleTweaks = ['triangleMarker']
+28.5993 	EXP 	scale: contrast = 1.0
+28.5993 	EXP 	scale: autoLog = True
+28.5993 	EXP 	textreproductionstart: height = 0.05
+28.5993 	EXP 	textreproductionstart: height = 0.05
+28.5993 	EXP 	textreproductionstart: height = 0.05
+28.5993 	EXP 	textreproductionstart: text = '時間估計作業\n\n請透過滑鼠將刺激呈現時間點在以下量尺中\n按下空白鍵進入下一題'
+28.5993 	EXP 	scale: markerPos = None
+28.5993 	EXP 	scale: markerPos = None
+28.5993 	EXP 	textreproductionstart: autoDraw = True
+28.5993 	EXP 	scale: autoDraw = True
+113.9858 	DATA 	Mouse: Left button down, pos=(578,319)
+114.0183 	EXP 	scale: markerPos = 3.078703703703704
+114.0516 	EXP 	scale: markerPos = 3.078703703703704
+114.0850 	EXP 	scale: markerPos = 3.078703703703704
+114.1183 	EXP 	scale: markerPos = 3.078703703703704
+114.1516 	EXP 	scale: markerPos = 3.078703703703704
+114.1850 	EXP 	scale: markerPos = 3.078703703703704
+114.2183 	EXP 	scale: markerPos = 3.078703703703704
+114.2516 	EXP 	scale: markerPos = 2.916666666666666
+114.2850 	EXP 	scale: markerPos = 2.8356481481481484
+114.3183 	EXP 	scale: markerPos = 2.7662037037037033
+114.3516 	EXP 	scale: markerPos = 2.6851851851851856
+114.3850 	EXP 	scale: markerPos = 2.6157407407407405
+114.4183 	EXP 	scale: markerPos = 2.5810185185185173
+114.4516 	EXP 	scale: markerPos = 2.534722222222222
+114.4850 	EXP 	scale: markerPos = 2.488425925925926
+114.5183 	EXP 	scale: markerPos = 2.488425925925926
+114.5517 	EXP 	scale: markerPos = 2.488425925925926
+114.5850 	EXP 	scale: markerPos = 2.488425925925926
+114.6183 	EXP 	scale: markerPos = 2.488425925925926
+114.6516 	EXP 	scale: markerPos = 2.6041666666666665
+114.6850 	EXP 	scale: markerPos = 2.6851851851851856
+114.7183 	EXP 	scale: markerPos = 2.6851851851851856
+114.7516 	EXP 	scale: markerPos = 2.6851851851851856
+114.7850 	EXP 	scale: markerPos = 2.6851851851851856
+114.8183 	EXP 	scale: markerPos = 2.6851851851851856
+114.8516 	EXP 	scale: markerPos = 2.6851851851851856
+114.8850 	EXP 	scale: markerPos = 2.6851851851851856
+114.9183 	EXP 	scale: markerPos = 2.6851851851851856
+114.9517 	EXP 	scale: markerPos = 2.6851851851851856
+114.9850 	EXP 	scale: markerPos = 2.6851851851851856
+115.0183 	EXP 	scale: markerPos = 2.8125
+115.0517 	EXP 	scale: markerPos = 3.0671296296296298
+115.0850 	EXP 	scale: markerPos = 3.136574074074074
+115.1183 	EXP 	scale: markerPos = 3.136574074074074
+115.1517 	EXP 	scale: markerPos = 3.136574074074074
+115.1850 	EXP 	scale: markerPos = 3.136574074074074
+115.2183 	EXP 	scale: markerPos = 3.136574074074074
+115.2517 	EXP 	scale: markerPos = 3.136574074074074
+115.2850 	EXP 	scale: markerPos = 3.136574074074074
+115.3183 	EXP 	scale: markerPos = 3.136574074074074
+115.3517 	EXP 	scale: markerPos = 3.1249999999999996
+115.3850 	EXP 	scale: markerPos = 3.0439814814814827
+115.4183 	EXP 	scale: markerPos = 3.0439814814814827
+115.4517 	EXP 	scale: markerPos = 3.0439814814814827
+115.4850 	EXP 	scale: markerPos = 3.0439814814814827
+115.5183 	EXP 	scale: markerPos = 3.0439814814814827
+115.5516 	EXP 	scale: markerPos = 3.0439814814814827
+115.5850 	EXP 	scale: markerPos = 3.0439814814814827
+115.5858 	DATA 	Mouse:  Left button up, pos=(575,307)
+115.6183 	EXP 	scale: markerPos = 3.0439814814814827
+118.3003 	DATA 	Mouse: Left button down, pos=(586,323)
+118.3517 	EXP 	scale: markerPos = 3.171296296296297
+118.3851 	EXP 	scale: markerPos = 3.171296296296297
+118.4184 	EXP 	scale: markerPos = 3.171296296296297
+118.4517 	EXP 	scale: markerPos = 3.171296296296297
+118.4851 	EXP 	scale: markerPos = 3.171296296296297
+118.5184 	EXP 	scale: markerPos = 3.171296296296297
+118.5517 	EXP 	scale: markerPos = 3.171296296296297
+118.5851 	EXP 	scale: markerPos = 3.171296296296297
+118.6184 	EXP 	scale: markerPos = 3.171296296296297
+118.6517 	EXP 	scale: markerPos = 3.171296296296297
+118.6851 	EXP 	scale: markerPos = 3.171296296296297
+118.7184 	EXP 	scale: markerPos = 3.171296296296297
+118.7517 	EXP 	scale: markerPos = 3.171296296296297
+118.7851 	EXP 	scale: markerPos = 3.148148148148148
+118.8184 	EXP 	scale: markerPos = 3.1249999999999996
+118.8517 	EXP 	scale: markerPos = 3.1134259259259256
+118.8850 	EXP 	scale: markerPos = 3.1134259259259256
+118.9184 	EXP 	scale: markerPos = 3.1134259259259256
+118.9517 	EXP 	scale: markerPos = 3.1134259259259256
+118.9855 	EXP 	scale: markerPos = 3.1134259259259256
+119.0184 	EXP 	scale: markerPos = 3.1134259259259256
+119.0517 	EXP 	scale: markerPos = 3.1134259259259256
+119.0851 	EXP 	scale: markerPos = 3.1134259259259256
+119.1184 	EXP 	scale: markerPos = 3.090277777777778
+119.1517 	EXP 	scale: markerPos = 3.090277777777778
+119.1851 	EXP 	scale: markerPos = 3.078703703703704
+119.2184 	EXP 	scale: markerPos = 3.078703703703704
+119.2517 	EXP 	scale: markerPos = 3.078703703703704
+119.2851 	EXP 	scale: markerPos = 3.078703703703704
+119.3184 	EXP 	scale: markerPos = 3.078703703703704
+119.3517 	EXP 	scale: markerPos = 3.078703703703704
+119.3851 	EXP 	scale: markerPos = 3.078703703703704
+119.4184 	EXP 	scale: markerPos = 3.078703703703704
+119.4517 	EXP 	scale: markerPos = 3.078703703703704
+119.4851 	EXP 	scale: markerPos = 3.078703703703704
+119.5184 	EXP 	scale: markerPos = 3.6921296296296293
+119.5517 	EXP 	scale: markerPos = 4.965277777777778
+119.5851 	EXP 	scale: markerPos = 5.555555555555555
+119.6184 	EXP 	scale: markerPos = 5.555555555555555
+119.6517 	EXP 	scale: markerPos = 5.555555555555555
+119.6851 	EXP 	scale: markerPos = 5.555555555555555
+119.7184 	EXP 	scale: markerPos = 4.444444444444445
+119.7517 	EXP 	scale: markerPos = 3.252314814814815
+119.7851 	EXP 	scale: markerPos = 2.986111111111111
+119.8184 	EXP 	scale: markerPos = 2.986111111111111
+119.8517 	EXP 	scale: markerPos = 2.986111111111111
+119.8851 	EXP 	scale: markerPos = 3.0671296296296298
+119.9184 	EXP 	scale: markerPos = 3.6805555555555554
+119.9517 	EXP 	scale: markerPos = 3.900462962962963
+119.9851 	EXP 	scale: markerPos = 3.900462962962963
+120.0184 	EXP 	scale: markerPos = 3.7731481481481484
+120.0517 	EXP 	scale: markerPos = 3.4375000000000004
+120.0851 	EXP 	scale: markerPos = 3.4027777777777777
+120.1184 	EXP 	scale: markerPos = 3.4027777777777777
+120.1518 	EXP 	scale: markerPos = 3.472222222222222
+120.1851 	EXP 	scale: markerPos = 3.80787037037037
+120.2184 	EXP 	scale: markerPos = 3.831018518518518
+120.2517 	EXP 	scale: markerPos = 3.831018518518518
+120.2851 	EXP 	scale: markerPos = 3.831018518518518
+120.3184 	EXP 	scale: markerPos = 3.831018518518518
+120.3517 	EXP 	scale: markerPos = 3.831018518518518
+120.3851 	EXP 	scale: markerPos = 3.831018518518518
+120.4184 	EXP 	scale: markerPos = 3.831018518518518
+120.4517 	EXP 	scale: markerPos = 3.831018518518518
+120.4851 	EXP 	scale: markerPos = 3.7037037037037033
+120.5184 	EXP 	scale: markerPos = 3.645833333333334
+120.5517 	EXP 	scale: markerPos = 3.6226851851851856
+120.5851 	EXP 	scale: markerPos = 3.6226851851851856
+120.6184 	EXP 	scale: markerPos = 3.6226851851851856
+120.6517 	EXP 	scale: markerPos = 3.611111111111111
+120.6851 	EXP 	scale: markerPos = 3.611111111111111
+120.7184 	EXP 	scale: markerPos = 3.611111111111111
+120.7517 	EXP 	scale: markerPos = 3.472222222222222
+120.7851 	EXP 	scale: markerPos = 3.0092592592592595
+120.8184 	EXP 	scale: markerPos = 2.6967592592592595
+120.8518 	EXP 	scale: markerPos = 2.662037037037037
+120.8851 	EXP 	scale: markerPos = 2.662037037037037
+120.9184 	EXP 	scale: markerPos = 2.662037037037037
+120.9518 	EXP 	scale: markerPos = 2.662037037037037
+120.9851 	EXP 	scale: markerPos = 2.662037037037037
+121.0184 	EXP 	scale: markerPos = 2.662037037037037
+121.0518 	EXP 	scale: markerPos = 2.662037037037037
+121.0851 	EXP 	scale: markerPos = 2.662037037037037
+121.1184 	EXP 	scale: markerPos = 2.662037037037037
+121.1518 	EXP 	scale: markerPos = 2.569444444444444
+121.1851 	EXP 	scale: markerPos = 2.4189814814814814
+121.2184 	EXP 	scale: markerPos = 2.3263888888888893
+121.2518 	EXP 	scale: markerPos = 2.314814814814815
+121.2851 	EXP 	scale: markerPos = 2.303240740740741
+121.3184 	EXP 	scale: markerPos = 2.303240740740741
+121.3518 	EXP 	scale: markerPos = 2.303240740740741
+121.3851 	EXP 	scale: markerPos = 2.303240740740741
+121.4184 	EXP 	scale: markerPos = 2.303240740740741
+121.4517 	EXP 	scale: markerPos = 2.303240740740741
+121.4851 	EXP 	scale: markerPos = 2.0370370370370368
+121.5184 	EXP 	scale: markerPos = 1.875
+121.5518 	EXP 	scale: markerPos = 1.8287037037037035
+121.5851 	EXP 	scale: markerPos = 1.8287037037037035
+121.6184 	EXP 	scale: markerPos = 1.8287037037037035
+121.6518 	EXP 	scale: markerPos = 1.8287037037037035
+121.6851 	EXP 	scale: markerPos = 1.8287037037037035
+121.7184 	EXP 	scale: markerPos = 1.8287037037037035
+121.7518 	EXP 	scale: markerPos = 1.8287037037037035
+121.7851 	EXP 	scale: markerPos = 1.8287037037037035
+121.8184 	EXP 	scale: markerPos = 1.8287037037037035
+121.8518 	EXP 	scale: markerPos = 1.8981481481481484
+121.8851 	EXP 	scale: markerPos = 1.9328703703703707
+121.9184 	EXP 	scale: markerPos = 1.9444444444444446
+121.9518 	EXP 	scale: markerPos = 1.9560185185185188
+121.9851 	EXP 	scale: markerPos = 1.9560185185185188
+122.0184 	EXP 	scale: markerPos = 1.9560185185185188
+122.0518 	EXP 	scale: markerPos = 2.0023148148148144
+122.0851 	EXP 	scale: markerPos = 2.0370370370370368
+122.1184 	EXP 	scale: markerPos = 2.048611111111111
+122.1518 	EXP 	scale: markerPos = 2.060185185185185
+122.1851 	EXP 	scale: markerPos = 2.060185185185185
+122.2184 	EXP 	scale: markerPos = 2.060185185185185
+122.2518 	EXP 	scale: markerPos = 2.060185185185185
+122.2851 	EXP 	scale: markerPos = 2.060185185185185
+122.3185 	EXP 	scale: markerPos = 2.060185185185185
+122.3518 	EXP 	scale: markerPos = 2.060185185185185
+122.3851 	EXP 	scale: markerPos = 2.060185185185185
+122.4184 	EXP 	scale: markerPos = 2.060185185185185
+122.4518 	EXP 	scale: markerPos = 2.060185185185185
+122.4851 	EXP 	scale: markerPos = 2.060185185185185
+122.5184 	EXP 	scale: markerPos = 2.060185185185185
+122.5518 	EXP 	scale: markerPos = 2.060185185185185
+122.5851 	EXP 	scale: markerPos = 2.060185185185185
+122.6184 	EXP 	scale: markerPos = 2.060185185185185
+122.6518 	EXP 	scale: markerPos = 2.060185185185185
+122.6851 	EXP 	scale: markerPos = 2.060185185185185
+122.7184 	EXP 	scale: markerPos = 2.060185185185185
+122.7518 	EXP 	scale: markerPos = 2.060185185185185
+122.7851 	EXP 	scale: markerPos = 2.060185185185185
+122.8184 	EXP 	scale: markerPos = 2.060185185185185
+122.8518 	EXP 	scale: markerPos = 2.060185185185185
+122.8851 	EXP 	scale: markerPos = 2.060185185185185
+122.9184 	EXP 	scale: markerPos = 2.060185185185185
+122.9518 	EXP 	scale: markerPos = 2.060185185185185
+122.9851 	EXP 	scale: markerPos = 2.060185185185185
+123.0185 	EXP 	scale: markerPos = 2.060185185185185
+123.0518 	EXP 	scale: markerPos = 2.060185185185185
+123.0851 	EXP 	scale: markerPos = 2.060185185185185
+123.1185 	EXP 	scale: markerPos = 2.060185185185185
+123.1518 	EXP 	scale: markerPos = 2.060185185185185
+123.1851 	EXP 	scale: markerPos = 2.060185185185185
+123.2185 	EXP 	scale: markerPos = 2.060185185185185
+123.2518 	EXP 	scale: markerPos = 2.106481481481482
+123.2852 	EXP 	scale: markerPos = 2.314814814814815
+123.3185 	EXP 	scale: markerPos = 2.7777777777777777
+123.3518 	EXP 	scale: markerPos = 3.310185185185185
+123.3851 	EXP 	scale: markerPos = 3.4953703703703702
+123.4185 	EXP 	scale: markerPos = 3.5416666666666665
+123.4518 	EXP 	scale: markerPos = 3.5532407407407405
+123.4851 	EXP 	scale: markerPos = 3.5532407407407405
+123.5185 	EXP 	scale: markerPos = 3.5532407407407405
+123.5518 	EXP 	scale: markerPos = 3.425925925925926
+123.5851 	EXP 	scale: markerPos = 2.8472222222222223
+123.6185 	EXP 	scale: markerPos = 2.638888888888889
+123.6518 	EXP 	scale: markerPos = 2.638888888888889
+123.6851 	EXP 	scale: markerPos = 2.638888888888889
+123.7185 	EXP 	scale: markerPos = 2.638888888888889
+123.7518 	EXP 	scale: markerPos = 2.638888888888889
+123.7851 	EXP 	scale: markerPos = 2.8703703703703707
+123.8185 	EXP 	scale: markerPos = 2.951388888888889
+123.8518 	EXP 	scale: markerPos = 2.951388888888889
+123.8851 	EXP 	scale: markerPos = 2.951388888888889
+123.9185 	EXP 	scale: markerPos = 2.951388888888889
+123.9518 	EXP 	scale: markerPos = 2.951388888888889
+123.9851 	EXP 	scale: markerPos = 2.951388888888889
+124.0185 	EXP 	scale: markerPos = 2.951388888888889
+124.0518 	EXP 	scale: markerPos = 2.951388888888889
+124.0851 	EXP 	scale: markerPos = 2.951388888888889
+124.1184 	EXP 	scale: markerPos = 2.951388888888889
+124.1518 	EXP 	scale: markerPos = 2.951388888888889
+124.1851 	EXP 	scale: markerPos = 2.951388888888889
+124.2184 	EXP 	scale: markerPos = 2.951388888888889
+124.2518 	EXP 	scale: markerPos = 2.9398148148148144
+124.2851 	EXP 	scale: markerPos = 2.916666666666666
+124.3184 	EXP 	scale: markerPos = 2.905092592592593
+124.3518 	EXP 	scale: markerPos = 2.8819444444444446
+124.3851 	EXP 	scale: markerPos = 2.800925925925926
+124.4185 	EXP 	scale: markerPos = 2.708333333333334
+124.4518 	EXP 	scale: markerPos = 2.6851851851851856
+124.4851 	EXP 	scale: markerPos = 2.6851851851851856
+124.5185 	EXP 	scale: markerPos = 2.6851851851851856
+124.5518 	EXP 	scale: markerPos = 2.6851851851851856
+124.5851 	EXP 	scale: markerPos = 2.6851851851851856
+124.6185 	EXP 	scale: markerPos = 2.6851851851851856
+124.6518 	EXP 	scale: markerPos = 2.6851851851851856
+124.6851 	EXP 	scale: markerPos = 2.6851851851851856
+124.7022 	DATA 	Mouse:  Left button up, pos=(544,282)
+124.7185 	EXP 	scale: markerPos = 2.6851851851851856
+124.7518 	EXP 	scale: markerPos = 2.6851851851851856
+234.9036 	EXP 	textreproductionstart: autoDraw = False
+234.9036 	EXP 	scale: autoDraw = False
+234.9036 	EXP 	textWelcomeMessage: autoDraw = True
+234.9106 	DATA 	KeyPress:  
+262.3755 	EXP 	Imported pink_con.xlsx as conditions, 3 conditions, 2 params
+262.3758 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=None
+262.3760 	EXP 	New trial (rep=0, index=0): {'pink': 'pink.png', 'pra_duration': 2}
+262.3874 	EXP 	Sound sound_1 started
+262.3874 	EXP 	textWelcomeMessage: autoDraw = False
+262.3874 	EXP 	textblank1000: autoDraw = True
+262.3929 	DATA 	KeyPress:  
+262.9292 	EXP 	Sound sound_1 reached end of file
+263.4874 	EXP 	textblank1000: autoDraw = False
+263.4874 	EXP 	textblank1000: autoDraw = False
+263.4874 	EXP 	image: image = 'pink.png'
+263.4874 	EXP 	image: autoDraw = True
+265.5041 	EXP 	image: autoDraw = False
+265.5041 	EXP 	image: autoDraw = False
+265.5041 	EXP 	textreproductionstart: text = '時間估計作業\n\n請透過滑鼠將刺激呈現時間點在以下量尺中\n按下空白鍵進入下一題'
+265.5041 	EXP 	scale: markerPos = None
+265.5041 	EXP 	scale: markerPos = None
+265.5041 	EXP 	textreproductionstart: autoDraw = True
+265.5041 	EXP 	scale: autoDraw = True
+272.9051 	DATA 	Mouse: Left button down, pos=(465,323)
+272.9376 	EXP 	scale: markerPos = 1.7708333333333337
+272.9709 	EXP 	scale: markerPos = 1.7708333333333337
+273.0042 	EXP 	scale: markerPos = 1.7708333333333337
+273.0376 	EXP 	scale: markerPos = 1.7708333333333337
+273.0383 	DATA 	Mouse:  Left button up, pos=(465,323)
+273.0709 	EXP 	scale: markerPos = 1.7708333333333337
+273.4384 	DATA 	Mouse: Left button down, pos=(465,323)
+273.4709 	EXP 	scale: markerPos = 1.7708333333333337
+273.5043 	EXP 	scale: markerPos = 1.7708333333333337
+273.5376 	EXP 	scale: markerPos = 1.7708333333333337
+273.5709 	EXP 	scale: markerPos = 1.7708333333333337
+273.6042 	EXP 	scale: markerPos = 1.7708333333333337
+273.6376 	EXP 	scale: markerPos = 1.7708333333333337
+273.6709 	EXP 	scale: markerPos = 1.7708333333333337
+273.7043 	EXP 	scale: markerPos = 1.7708333333333337
+273.7376 	EXP 	scale: markerPos = 1.7708333333333337
+273.7709 	EXP 	scale: markerPos = 1.7708333333333337
+273.8043 	EXP 	scale: markerPos = 1.7708333333333337
+273.8376 	EXP 	scale: markerPos = 1.7708333333333337
+273.8709 	EXP 	scale: markerPos = 1.7708333333333337
+273.9043 	EXP 	scale: markerPos = 1.7708333333333337
+273.9376 	EXP 	scale: markerPos = 1.7708333333333337
+273.9709 	EXP 	scale: markerPos = 1.7708333333333337
+274.0043 	EXP 	scale: markerPos = 1.7708333333333337
+274.0376 	EXP 	scale: markerPos = 1.7708333333333337
+274.0709 	EXP 	scale: markerPos = 1.7708333333333337
+274.1043 	EXP 	scale: markerPos = 1.7708333333333337
+274.1376 	EXP 	scale: markerPos = 1.7708333333333337
+274.1710 	EXP 	scale: markerPos = 1.7708333333333337
+274.2043 	EXP 	scale: markerPos = 1.7708333333333337
+274.2376 	EXP 	scale: markerPos = 1.7708333333333337
+274.2709 	EXP 	scale: markerPos = 1.7708333333333337
+274.3043 	EXP 	scale: markerPos = 1.7708333333333337
+274.3376 	EXP 	scale: markerPos = 1.7708333333333337
+274.3709 	EXP 	scale: markerPos = 1.7708333333333337
+274.4043 	EXP 	scale: markerPos = 1.7708333333333337
+274.4376 	EXP 	scale: markerPos = 1.7708333333333337
+274.4709 	EXP 	scale: markerPos = 1.7708333333333337
+274.5043 	EXP 	scale: markerPos = 1.7708333333333337
+274.5376 	EXP 	scale: markerPos = 1.7708333333333337
+274.5709 	EXP 	scale: markerPos = 1.7708333333333337
+274.6043 	EXP 	scale: markerPos = 1.7708333333333337
+274.6376 	EXP 	scale: markerPos = 1.7708333333333337
+274.6709 	EXP 	scale: markerPos = 1.7708333333333337
+274.7043 	EXP 	scale: markerPos = 1.7708333333333337
+274.7376 	EXP 	scale: markerPos = 1.7708333333333337
+274.7709 	EXP 	scale: markerPos = 1.7708333333333337
+274.8043 	EXP 	scale: markerPos = 1.7708333333333337
+274.8376 	EXP 	scale: markerPos = 1.7708333333333337
+274.8384 	DATA 	Mouse:  Left button up, pos=(465,323)
+274.8709 	EXP 	scale: markerPos = 1.7708333333333337
+277.4718 	DATA 	Mouse: Left button down, pos=(467,323)
+277.5043 	EXP 	scale: markerPos = 1.7939814814814812
+277.5376 	EXP 	scale: markerPos = 1.7939814814814812
+277.5709 	EXP 	scale: markerPos = 1.8055555555555554
+277.6043 	EXP 	scale: markerPos = 1.8402777777777777
+277.6377 	EXP 	scale: markerPos = 1.8402777777777777
+277.6710 	EXP 	scale: markerPos = 1.8402777777777777
+277.7043 	EXP 	scale: markerPos = 1.8402777777777777
+277.7377 	EXP 	scale: markerPos = 1.8402777777777777
+277.7710 	EXP 	scale: markerPos = 1.8402777777777777
+277.8043 	EXP 	scale: markerPos = 1.8402777777777777
+277.8377 	EXP 	scale: markerPos = 1.8402777777777777
+277.8710 	EXP 	scale: markerPos = 1.8402777777777777
+277.9043 	EXP 	scale: markerPos = 1.8402777777777777
+277.9377 	EXP 	scale: markerPos = 1.8171296296296293
+277.9709 	EXP 	scale: markerPos = 1.8055555555555554
+278.0043 	EXP 	scale: markerPos = 1.8055555555555554
+278.0377 	EXP 	scale: markerPos = 1.8055555555555554
+278.0710 	EXP 	scale: markerPos = 1.8055555555555554
+278.1043 	EXP 	scale: markerPos = 1.8055555555555554
+278.1377 	EXP 	scale: markerPos = 1.8055555555555554
+278.1710 	EXP 	scale: markerPos = 1.8055555555555554
+278.2043 	EXP 	scale: markerPos = 1.8055555555555554
+278.2376 	EXP 	scale: markerPos = 1.8055555555555554
+278.2709 	EXP 	scale: markerPos = 1.8055555555555554
+278.3043 	EXP 	scale: markerPos = 1.8055555555555554
+278.3053 	DATA 	Mouse:  Left button up, pos=(468,322)
+278.3377 	EXP 	scale: markerPos = 1.8055555555555554
+319.2883 	EXP 	textreproductionstart: autoDraw = False
+319.2883 	EXP 	scale: autoDraw = False
+319.2883 	EXP 	textrest: autoDraw = True
+319.2939 	DATA 	KeyPress:  
+344.2720 	EXP 	Sound sound_2 started
+344.2720 	EXP 	textready: autoDraw = True
+344.2887 	EXP 	textrest: autoDraw = False
+344.8108 	EXP 	Sound sound_2 reached end of file
+349.2559 	EXP 	New trial (rep=0, index=1): {'pink': 'pink.png', 'pra_duration': 6}
+349.2721 	EXP 	Sound sound_1 started
+349.2721 	EXP 	textready: autoDraw = False
+349.2721 	EXP 	textrest: autoDraw = False
+349.2721 	EXP 	textready: autoDraw = False
+349.2721 	EXP 	textblank1000: autoDraw = True
+349.8113 	EXP 	Sound sound_1 reached end of file
+350.3055 	EXP 	textblank1000: autoDraw = False
+350.3055 	EXP 	textblank1000: autoDraw = False
+350.3055 	EXP 	image: image = 'pink.png'
+350.3055 	EXP 	image: autoDraw = True
+356.3223 	EXP 	image: autoDraw = False
+356.3223 	EXP 	image: autoDraw = False
+356.3223 	EXP 	textreproductionstart: text = '時間估計作業\n\n請透過滑鼠將刺激呈現時間點在以下量尺中\n按下空白鍵進入下一題'
+356.3223 	EXP 	scale: markerPos = None
+356.3223 	EXP 	scale: markerPos = None
+356.3223 	EXP 	textreproductionstart: autoDraw = True
+356.3223 	EXP 	scale: autoDraw = True
+361.1377 	DATA 	Mouse: Left button down, pos=(747,322)
+361.1890 	EXP 	scale: markerPos = 5.034722222222222
+361.2223 	EXP 	scale: markerPos = 5.034722222222222
+361.2557 	EXP 	scale: markerPos = 5.034722222222222
+361.2890 	EXP 	scale: markerPos = 5.046296296296296
+361.3223 	EXP 	scale: markerPos = 5.069444444444445
+361.3557 	EXP 	scale: markerPos = 5.081018518518519
+361.3890 	EXP 	scale: markerPos = 5.092592592592593
+361.4223 	EXP 	scale: markerPos = 5.092592592592593
+361.4557 	EXP 	scale: markerPos = 5.092592592592593
+361.4890 	EXP 	scale: markerPos = 5.104166666666667
+361.5223 	EXP 	scale: markerPos = 5.1157407407407405
+361.5557 	EXP 	scale: markerPos = 5.127314814814815
+361.5890 	EXP 	scale: markerPos = 5.138888888888888
+361.6223 	EXP 	scale: markerPos = 5.138888888888888
+361.6557 	EXP 	scale: markerPos = 5.138888888888888
+361.6890 	EXP 	scale: markerPos = 5.138888888888888
+361.7223 	EXP 	scale: markerPos = 5.138888888888888
+361.7557 	EXP 	scale: markerPos = 5.138888888888888
+361.7890 	EXP 	scale: markerPos = 5.138888888888888
+361.8223 	EXP 	scale: markerPos = 5.138888888888888
+361.8557 	EXP 	scale: markerPos = 5.138888888888888
+361.8890 	EXP 	scale: markerPos = 5.138888888888888
+361.9053 	DATA 	Mouse:  Left button up, pos=(756,318)
+361.9223 	EXP 	scale: markerPos = 5.138888888888888
+361.9557 	EXP 	scale: markerPos = 5.138888888888888
+390.7631 	DATA 	KeyPress:  
+390.7728 	EXP 	textreproductionstart: autoDraw = False
+390.7728 	EXP 	scale: autoDraw = False
+390.7728 	EXP 	textrest: autoDraw = True
+415.7565 	EXP 	Sound sound_2 started
+415.7566 	EXP 	textready: autoDraw = True
+415.7733 	EXP 	textrest: autoDraw = False
+416.2959 	EXP 	Sound sound_2 reached end of file
+420.7404 	EXP 	New trial (rep=0, index=2): {'pink': 'pink.png', 'pra_duration': 4}
+420.7566 	EXP 	Sound sound_1 started
+420.7566 	EXP 	textready: autoDraw = False
+420.7566 	EXP 	textrest: autoDraw = False
+420.7566 	EXP 	textready: autoDraw = False
+420.7566 	EXP 	textblank1000: autoDraw = True
+421.2990 	EXP 	Sound sound_1 reached end of file
+421.7900 	EXP 	textblank1000: autoDraw = False
+421.7900 	EXP 	textblank1000: autoDraw = False
+421.7900 	EXP 	image: image = 'pink.png'
+421.7900 	EXP 	image: autoDraw = True
+425.8067 	EXP 	image: autoDraw = False
+425.8067 	EXP 	image: autoDraw = False
+425.8067 	EXP 	textreproductionstart: text = '時間估計作業\n\n請透過滑鼠將刺激呈現時間點在以下量尺中\n按下空白鍵進入下一題'
+425.8067 	EXP 	scale: markerPos = None
+425.8067 	EXP 	scale: markerPos = None
+425.8067 	EXP 	textreproductionstart: autoDraw = True
+425.8067 	EXP 	scale: autoDraw = True
+428.4742 	DATA 	Mouse: Left button down, pos=(580,320)
+428.5067 	EXP 	scale: markerPos = 3.1018518518518516
+428.5401 	EXP 	scale: markerPos = 3.1018518518518516
+428.5734 	EXP 	scale: markerPos = 3.1018518518518516
+428.6068 	EXP 	scale: markerPos = 3.1018518518518516
+428.6401 	EXP 	scale: markerPos = 3.1018518518518516
+428.6734 	EXP 	scale: markerPos = 3.1018518518518516
+428.7068 	EXP 	scale: markerPos = 3.1018518518518516
+428.7076 	DATA 	Mouse:  Left button up, pos=(580,320)
+428.7401 	EXP 	scale: markerPos = 3.1018518518518516
+435.2803 	DATA 	KeyPress:  
+435.2903 	EXP 	textreproductionstart: autoDraw = False
+435.2903 	EXP 	scale: autoDraw = False
+435.2903 	EXP 	textrest: autoDraw = True
+460.2739 	EXP 	Sound sound_2 started
+460.2739 	EXP 	textready: autoDraw = True
+460.2906 	EXP 	textrest: autoDraw = False
+460.8126 	EXP 	Sound sound_2 reached end of file
+465.2740 	EXP 	textready: autoDraw = False
+465.2740 	EXP 	textrest: autoDraw = False
+465.2740 	EXP 	textready: autoDraw = False
+465.2740 	EXP 	text: autoDraw = True
+467.1293 	EXP 	Imported pic_condition.xlsx as conditions, 20 conditions, 2 params
+467.1298 	EXP 	Created sequence: random, trialTypes=20, nReps=1, seed=None
+467.1299 	EXP 	New trial (rep=0, index=0): {'emo_pic': 'emo_pic\\positive_low_2156.jpg', 'duration': 7}
+467.1407 	EXP 	Sound sound_1 started
+467.1406 	EXP 	text: autoDraw = False
+467.1406 	EXP 	textblank1000: autoDraw = True
+467.1459 	DATA 	KeyPress:  
+467.6893 	EXP 	Sound sound_1 reached end of file
+468.1910 	EXP 	textblank1000: autoDraw = False
+468.1910 	EXP 	textblank1000: autoDraw = False
+468.1910 	EXP 	emopic: image = 'emo_pic\\positive_low_2156.jpg'
+468.1910 	EXP 	emopic: autoDraw = True
+475.2071 	EXP 	emopic: autoDraw = False
+475.2071 	EXP 	emopic: autoDraw = False
+475.2071 	EXP 	textreproductionstart: text = '時間估計作業\n\n請透過滑鼠將刺激呈現時間點在以下量尺中\n按下空白鍵進入下一題'
+475.2071 	EXP 	scale: markerPos = None
+475.2071 	EXP 	scale: markerPos = None
+475.2071 	EXP 	textreproductionstart: autoDraw = True
+475.2071 	EXP 	scale: autoDraw = True
+499.7230 	DATA 	Mouse: Left button down, pos=(663,326)
+499.7575 	EXP 	scale: markerPos = 4.062500000000001
+499.7908 	EXP 	scale: markerPos = 4.0740740740740735
+499.8241 	EXP 	scale: markerPos = 4.0740740740740735
+499.8575 	EXP 	scale: markerPos = 4.0740740740740735
+499.8908 	EXP 	scale: markerPos = 4.0740740740740735
+499.9241 	EXP 	scale: markerPos = 4.0740740740740735
+499.9405 	DATA 	Mouse:  Left button up, pos=(664,325)
+499.9575 	EXP 	scale: markerPos = 4.0740740740740735
+499.9908 	EXP 	scale: markerPos = 4.0740740740740735
+510.5983 	DATA 	KeyPress:  
+510.6076 	EXP 	textreproductionstart: autoDraw = False
+510.6076 	EXP 	scale: autoDraw = False
+510.6076 	EXP 	textrest: autoDraw = True
+535.5918 	EXP 	Sound sound_2 started
+535.5918 	EXP 	textready: autoDraw = True
+535.6085 	EXP 	textrest: autoDraw = False
+536.1309 	EXP 	Sound sound_2 reached end of file
+540.5756 	EXP 	New trial (rep=0, index=1): {'emo_pic': 'emo_pic\\pnegative_high_1120.jpg', 'duration': 7}
+540.5918 	EXP 	Sound sound_1 started
+540.5919 	EXP 	textready: autoDraw = False
+540.5919 	EXP 	textrest: autoDraw = False
+540.5919 	EXP 	textready: autoDraw = False
+540.5919 	EXP 	textblank1000: autoDraw = True
+541.1313 	EXP 	Sound sound_1 reached end of file
+541.6086 	EXP 	textblank1000: autoDraw = False
+541.6086 	EXP 	textblank1000: autoDraw = False
+541.6086 	EXP 	emopic: image = 'emo_pic\\pnegative_high_1120.jpg'
+541.6086 	EXP 	emopic: autoDraw = True
+548.6249 	EXP 	emopic: autoDraw = False
+548.6249 	EXP 	emopic: autoDraw = False
+548.6249 	EXP 	textreproductionstart: text = '時間估計作業\n\n請透過滑鼠將刺激呈現時間點在以下量尺中\n按下空白鍵進入下一題'
+548.6249 	EXP 	scale: markerPos = None
+548.6249 	EXP 	scale: markerPos = None
+548.6249 	EXP 	textreproductionstart: autoDraw = True
+548.6249 	EXP 	scale: autoDraw = True
+552.8237 	DATA 	Mouse: Left button down, pos=(796,316)
+552.8583 	EXP 	scale: markerPos = 5.601851851851852
+552.8916 	EXP 	scale: markerPos = 5.613425925925926
+552.9250 	EXP 	scale: markerPos = 5.659722222222222
+552.9583 	EXP 	scale: markerPos = 5.671296296296297
+552.9916 	EXP 	scale: markerPos = 5.68287037037037
+553.0250 	EXP 	scale: markerPos = 5.68287037037037
+553.0583 	EXP 	scale: markerPos = 5.694444444444445
+553.0916 	EXP 	scale: markerPos = 5.706018518518518
+553.1250 	EXP 	scale: markerPos = 5.7175925925925934
+553.1586 	EXP 	scale: markerPos = 5.7175925925925934
+553.1916 	EXP 	scale: markerPos = 5.7175925925925934
+553.1925 	DATA 	Mouse:  Left button up, pos=(806,314)
+553.2250 	EXP 	scale: markerPos = 5.7175925925925934
+553.5404 	DATA 	Mouse: Left button down, pos=(803,314)
+553.5750 	EXP 	scale: markerPos = 5.68287037037037
+553.6083 	EXP 	scale: markerPos = 5.68287037037037
+553.6416 	EXP 	scale: markerPos = 5.68287037037037
+553.6750 	EXP 	scale: markerPos = 5.68287037037037
+553.7083 	EXP 	scale: markerPos = 5.68287037037037
+553.7417 	EXP 	scale: markerPos = 5.68287037037037
+553.7750 	EXP 	scale: markerPos = 5.68287037037037
+553.8083 	EXP 	scale: markerPos = 5.68287037037037
+553.8416 	EXP 	scale: markerPos = 5.68287037037037
+553.8750 	EXP 	scale: markerPos = 5.671296296296297
+553.9083 	EXP 	scale: markerPos = 5.671296296296297
+553.9417 	EXP 	scale: markerPos = 5.671296296296297
+553.9750 	EXP 	scale: markerPos = 5.671296296296297
+554.0083 	EXP 	scale: markerPos = 5.659722222222222
+554.0417 	EXP 	scale: markerPos = 5.648148148148148
+554.0750 	EXP 	scale: markerPos = 5.648148148148148
+554.1083 	EXP 	scale: markerPos = 5.648148148148148
+554.1417 	EXP 	scale: markerPos = 5.648148148148148
+554.1750 	EXP 	scale: markerPos = 5.648148148148148
+554.1913 	DATA 	Mouse:  Left button up, pos=(800,315)
+554.2083 	EXP 	scale: markerPos = 5.648148148148148
+554.2417 	EXP 	scale: markerPos = 5.648148148148148
+554.4737 	DATA 	Mouse: Left button down, pos=(799,315)
+554.5083 	EXP 	scale: markerPos = 5.636574074074074
+554.5417 	EXP 	scale: markerPos = 5.636574074074074
+554.5750 	EXP 	scale: markerPos = 5.636574074074074
+554.6083 	EXP 	scale: markerPos = 5.636574074074074
+554.6417 	EXP 	scale: markerPos = 5.636574074074074
+554.6750 	EXP 	scale: markerPos = 5.636574074074074
+554.7083 	EXP 	scale: markerPos = 5.636574074074074
+554.7091 	DATA 	Mouse:  Left button up, pos=(799,315)
+554.7417 	EXP 	scale: markerPos = 5.636574074074074
+568.2484 	DATA 	KeyPress:  
+568.2585 	EXP 	textreproductionstart: autoDraw = False
+568.2585 	EXP 	scale: autoDraw = False
+568.2585 	EXP 	textrest: autoDraw = True
+593.2427 	EXP 	Sound sound_2 started
+593.2427 	EXP 	textready: autoDraw = True
+593.2594 	EXP 	textrest: autoDraw = False
+593.7817 	EXP 	Sound sound_2 reached end of file
+598.2266 	EXP 	New trial (rep=0, index=2): {'emo_pic': 'emo_pic\\positive_high_5621.jpg', 'duration': 5}
+598.2428 	EXP 	Sound sound_1 started
+598.2428 	EXP 	textready: autoDraw = False
+598.2428 	EXP 	textrest: autoDraw = False
+598.2428 	EXP 	textready: autoDraw = False
+598.2428 	EXP 	textblank1000: autoDraw = True
+598.7818 	EXP 	Sound sound_1 reached end of file
+599.2595 	EXP 	textblank1000: autoDraw = False
+599.2595 	EXP 	textblank1000: autoDraw = False
+599.2595 	EXP 	emopic: image = 'emo_pic\\positive_high_5621.jpg'
+599.2595 	EXP 	emopic: autoDraw = True
+604.2758 	EXP 	emopic: autoDraw = False
+604.2758 	EXP 	emopic: autoDraw = False
+604.2758 	EXP 	textreproductionstart: text = '時間估計作業\n\n請透過滑鼠將刺激呈現時間點在以下量尺中\n按下空白鍵進入下一題'
+604.2758 	EXP 	scale: markerPos = None
+604.2758 	EXP 	scale: markerPos = None
+604.2758 	EXP 	textreproductionstart: autoDraw = True
+604.2758 	EXP 	scale: autoDraw = True
+606.9745 	DATA 	Mouse: Left button down, pos=(666,324)
+607.0092 	EXP 	scale: markerPos = 4.097222222222222
+607.0425 	EXP 	scale: markerPos = 4.085648148148148
+607.0758 	EXP 	scale: markerPos = 4.085648148148148
+607.1092 	EXP 	scale: markerPos = 4.085648148148148
+607.1425 	EXP 	scale: markerPos = 4.085648148148148
+607.1758 	EXP 	scale: markerPos = 4.085648148148148
+607.2092 	EXP 	scale: markerPos = 4.085648148148148
+607.2425 	EXP 	scale: markerPos = 4.085648148148148
+607.2758 	EXP 	scale: markerPos = 4.085648148148148
+607.3092 	EXP 	scale: markerPos = 4.085648148148148
+607.3425 	EXP 	scale: markerPos = 4.085648148148148
+607.3758 	EXP 	scale: markerPos = 4.085648148148148
+607.4092 	EXP 	scale: markerPos = 4.085648148148148
+607.4425 	EXP 	scale: markerPos = 4.085648148148148
+607.4758 	EXP 	scale: markerPos = 4.085648148148148
+607.5092 	EXP 	scale: markerPos = 4.085648148148148
+607.5101 	DATA 	Mouse:  Left button up, pos=(665,325)
+607.5425 	EXP 	scale: markerPos = 4.085648148148148
+607.6912 	DATA 	Mouse: Left button down, pos=(665,325)
+607.7258 	EXP 	scale: markerPos = 4.085648148148148
+607.7592 	EXP 	scale: markerPos = 4.085648148148148
+607.7925 	EXP 	scale: markerPos = 4.085648148148148
+607.8258 	EXP 	scale: markerPos = 4.085648148148148
+607.8592 	EXP 	scale: markerPos = 4.085648148148148
+607.8925 	EXP 	scale: markerPos = 4.085648148148148
+607.9258 	EXP 	scale: markerPos = 4.085648148148148
+607.9592 	EXP 	scale: markerPos = 4.085648148148148
+607.9925 	EXP 	scale: markerPos = 4.085648148148148
+608.0258 	EXP 	scale: markerPos = 4.085648148148148
+608.0592 	EXP 	scale: markerPos = 4.085648148148148
+608.0925 	EXP 	scale: markerPos = 4.085648148148148
+608.1258 	EXP 	scale: markerPos = 4.085648148148148
+608.1592 	EXP 	scale: markerPos = 4.085648148148148
+608.1925 	EXP 	scale: markerPos = 4.085648148148148
+608.2258 	EXP 	scale: markerPos = 4.085648148148148
+608.2592 	EXP 	scale: markerPos = 4.085648148148148
+608.2925 	EXP 	scale: markerPos = 4.085648148148148
+608.3086 	DATA 	Mouse:  Left button up, pos=(665,325)
+608.3258 	EXP 	scale: markerPos = 4.085648148148148
+608.3592 	EXP 	scale: markerPos = 4.085648148148148
+649.8103 	EXP 	textreproductionstart: autoDraw = False
+649.8103 	EXP 	scale: autoDraw = False
+649.8103 	EXP 	textrest: autoDraw = True
+649.8156 	DATA 	KeyPress:  
+674.7940 	EXP 	Sound sound_2 started
+674.7940 	EXP 	textready: autoDraw = True
+674.8107 	EXP 	textrest: autoDraw = False
+675.3332 	EXP 	Sound sound_2 reached end of file
+679.7778 	EXP 	New trial (rep=0, index=3): {'emo_pic': 'emo_pic\\positive_low_7340.jpg', 'duration': 1}
+679.7941 	EXP 	Sound sound_1 started
+679.7941 	EXP 	textready: autoDraw = False
+679.7941 	EXP 	textrest: autoDraw = False
+679.7941 	EXP 	textready: autoDraw = False
+679.7941 	EXP 	textblank1000: autoDraw = True
+680.3334 	EXP 	Sound sound_1 reached end of file
+680.8107 	EXP 	textblank1000: autoDraw = False
+680.8107 	EXP 	textblank1000: autoDraw = False
+680.8107 	EXP 	emopic: image = 'emo_pic\\positive_low_7340.jpg'
+680.8107 	EXP 	emopic: autoDraw = True
+681.8270 	EXP 	emopic: autoDraw = False
+681.8270 	EXP 	emopic: autoDraw = False
+681.8270 	EXP 	textreproductionstart: text = '時間估計作業\n\n請透過滑鼠將刺激呈現時間點在以下量尺中\n按下空白鍵進入下一題'
+681.8270 	EXP 	scale: markerPos = None
+681.8270 	EXP 	scale: markerPos = None
+681.8270 	EXP 	textreproductionstart: autoDraw = True
+681.8270 	EXP 	scale: autoDraw = True
+685.7447 	DATA 	Mouse: Left button down, pos=(396,321)
+685.7772 	EXP 	scale: markerPos = 0.9722222222222223
+685.8106 	EXP 	scale: markerPos = 0.9722222222222223
+685.8439 	EXP 	scale: markerPos = 0.9722222222222223
+685.8772 	EXP 	scale: markerPos = 0.9490740740740742
+685.9105 	EXP 	scale: markerPos = 0.9375
+685.9439 	EXP 	scale: markerPos = 0.9143518518518517
+685.9772 	EXP 	scale: markerPos = 0.9143518518518517
+686.0106 	EXP 	scale: markerPos = 0.9143518518518517
+686.0439 	EXP 	scale: markerPos = 0.9143518518518517
+686.0772 	EXP 	scale: markerPos = 0.9143518518518517
+686.1105 	EXP 	scale: markerPos = 0.9027777777777777
+686.1439 	EXP 	scale: markerPos = 0.9027777777777777
+686.1772 	EXP 	scale: markerPos = 0.9027777777777777
+686.2106 	EXP 	scale: markerPos = 0.9027777777777777
+686.2439 	EXP 	scale: markerPos = 0.9027777777777777
+686.2772 	EXP 	scale: markerPos = 0.9027777777777777
+686.3105 	EXP 	scale: markerPos = 0.9027777777777777
+686.3442 	EXP 	scale: markerPos = 0.9027777777777777
+686.3775 	EXP 	scale: markerPos = 0.9027777777777777
+686.4108 	EXP 	scale: markerPos = 0.9027777777777777
+686.4442 	EXP 	scale: markerPos = 0.9027777777777777
+686.4775 	EXP 	scale: markerPos = 0.9027777777777777
+686.5108 	EXP 	scale: markerPos = 0.9027777777777777
+686.5117 	DATA 	Mouse:  Left button up, pos=(390,324)
+686.5442 	EXP 	scale: markerPos = 0.9027777777777777
+690.1786 	DATA 	Mouse: Left button down, pos=(382,313)
+690.2109 	EXP 	scale: markerPos = 0.8101851851851855
+690.2443 	EXP 	scale: markerPos = 0.8101851851851855
+690.2776 	EXP 	scale: markerPos = 0.8101851851851855
+690.3109 	EXP 	scale: markerPos = 0.7870370370370355
+690.3443 	EXP 	scale: markerPos = 0.7870370370370355
+690.3776 	EXP 	scale: markerPos = 0.7870370370370355
+690.4109 	EXP 	scale: markerPos = 0.7870370370370355
+690.4443 	EXP 	scale: markerPos = 0.7870370370370355
+690.4776 	EXP 	scale: markerPos = 0.7870370370370355
+690.5109 	EXP 	scale: markerPos = 0.7870370370370355
+690.5443 	EXP 	scale: markerPos = 0.7870370370370355
+690.5776 	EXP 	scale: markerPos = 0.7870370370370355
+690.6109 	EXP 	scale: markerPos = 0.7870370370370355
+690.6443 	EXP 	scale: markerPos = 0.7870370370370355
+690.6776 	EXP 	scale: markerPos = 0.7870370370370355
+690.7109 	EXP 	scale: markerPos = 0.7870370370370355
+690.7272 	DATA 	Mouse:  Left button up, pos=(380,315)
+690.7442 	EXP 	scale: markerPos = 0.7870370370370355
+690.7776 	EXP 	scale: markerPos = 0.7870370370370355
+705.6945 	EXP 	textreproductionstart: autoDraw = False
+705.6945 	EXP 	scale: autoDraw = False
+705.6945 	EXP 	textrest: autoDraw = True
+705.7004 	DATA 	KeyPress:  
+730.6782 	EXP 	Sound sound_2 started
+730.6782 	EXP 	textready: autoDraw = True
+730.6949 	EXP 	textrest: autoDraw = False
+731.2197 	EXP 	Sound sound_2 reached end of file
+735.6620 	EXP 	New trial (rep=0, index=4): {'emo_pic': 'emo_pic\\pneutral_7950.jpg', 'duration': 7}
+735.6783 	EXP 	Sound sound_1 started
+735.6783 	EXP 	textready: autoDraw = False
+735.6783 	EXP 	textrest: autoDraw = False
+735.6783 	EXP 	textready: autoDraw = False
+735.6783 	EXP 	textblank1000: autoDraw = True
+736.2196 	EXP 	Sound sound_1 reached end of file
+736.6950 	EXP 	textblank1000: autoDraw = False
+736.6950 	EXP 	textblank1000: autoDraw = False
+736.6950 	EXP 	emopic: image = 'emo_pic\\pneutral_7950.jpg'
+736.6950 	EXP 	emopic: autoDraw = True
+743.7113 	EXP 	emopic: autoDraw = False
+743.7113 	EXP 	emopic: autoDraw = False
+743.7113 	EXP 	textreproductionstart: text = '時間估計作業\n\n請透過滑鼠將刺激呈現時間點在以下量尺中\n按下空白鍵進入下一題'
+743.7113 	EXP 	scale: markerPos = None
+743.7113 	EXP 	scale: markerPos = None
+743.7113 	EXP 	textreproductionstart: autoDraw = True
+743.7113 	EXP 	scale: autoDraw = True
+746.8935 	DATA 	Mouse: Left button down, pos=(753,326)
+746.9280 	EXP 	scale: markerPos = 5.104166666666667
+746.9614 	EXP 	scale: markerPos = 5.104166666666667
+746.9947 	EXP 	scale: markerPos = 5.104166666666667
+747.0110 	DATA 	Mouse:  Left button up, pos=(753,326)
+747.0280 	EXP 	scale: markerPos = 5.104166666666667
+747.0614 	EXP 	scale: markerPos = 5.104166666666667
+755.8352 	DATA 	KeyPress:  
+755.8448 	EXP 	textreproductionstart: autoDraw = False
+755.8448 	EXP 	scale: autoDraw = False
+755.8448 	EXP 	textrest: autoDraw = True
+780.8286 	EXP 	Sound sound_2 started
+780.8286 	EXP 	textready: autoDraw = True
+780.8452 	EXP 	textrest: autoDraw = False
+781.3691 	EXP 	Sound sound_2 reached end of file
+785.8124 	EXP 	New trial (rep=0, index=5): {'emo_pic': 'emo_pic\\pneutral_7100.jpg', 'duration': 3}
+785.8286 	EXP 	Sound sound_1 started
+785.8286 	EXP 	textready: autoDraw = False
+785.8286 	EXP 	textrest: autoDraw = False
+785.8286 	EXP 	textready: autoDraw = False
+785.8286 	EXP 	textblank1000: autoDraw = True
+786.3692 	EXP 	Sound sound_1 reached end of file
+786.8287 	EXP 	textblank1000: autoDraw = False
+786.8287 	EXP 	textblank1000: autoDraw = False
+786.8287 	EXP 	emopic: image = 'emo_pic\\pneutral_7100.jpg'
+786.8287 	EXP 	emopic: autoDraw = True
+789.8455 	EXP 	emopic: autoDraw = False
+789.8455 	EXP 	emopic: autoDraw = False
+789.8455 	EXP 	textreproductionstart: text = '時間估計作業\n\n請透過滑鼠將刺激呈現時間點在以下量尺中\n按下空白鍵進入下一題'
+789.8455 	EXP 	scale: markerPos = None
+789.8455 	EXP 	scale: markerPos = None
+789.8455 	EXP 	textreproductionstart: autoDraw = True
+789.8455 	EXP 	scale: autoDraw = True
+793.2632 	DATA 	Mouse: Left button down, pos=(533,310)
+793.2957 	EXP 	scale: markerPos = 2.5578703703703702
+793.3291 	EXP 	scale: markerPos = 2.5578703703703702
+793.3624 	EXP 	scale: markerPos = 2.5578703703703702
+793.3959 	EXP 	scale: markerPos = 2.5578703703703702
+793.3967 	DATA 	Mouse:  Left button up, pos=(533,310)
+793.4292 	EXP 	scale: markerPos = 2.5578703703703702
+793.8633 	DATA 	Mouse: Left button down, pos=(530,314)
+793.8959 	EXP 	scale: markerPos = 2.5231481481481484
+793.9292 	EXP 	scale: markerPos = 2.5231481481481484
+793.9626 	EXP 	scale: markerPos = 2.5231481481481484
+793.9959 	EXP 	scale: markerPos = 2.5231481481481484
+794.0292 	EXP 	scale: markerPos = 2.5231481481481484
+794.0626 	EXP 	scale: markerPos = 2.5231481481481484
+794.0959 	EXP 	scale: markerPos = 2.5231481481481484
+794.1292 	EXP 	scale: markerPos = 2.5231481481481484
+794.1300 	DATA 	Mouse:  Left button up, pos=(530,314)
+794.1626 	EXP 	scale: markerPos = 2.5231481481481484
+798.5126 	EXP 	textreproductionstart: autoDraw = False
+798.5126 	EXP 	scale: autoDraw = False
+798.5126 	EXP 	textrest: autoDraw = True
+798.5183 	DATA 	KeyPress:  
+823.4963 	EXP 	Sound sound_2 started
+823.4964 	EXP 	textready: autoDraw = True
+823.5130 	EXP 	textrest: autoDraw = False
+824.0357 	EXP 	Sound sound_2 reached end of file
+828.4802 	EXP 	New trial (rep=0, index=6): {'emo_pic': 'emo_pic\\pneutral_7233.jpg', 'duration': 5}
+828.4964 	EXP 	Sound sound_1 started
+828.4965 	EXP 	textready: autoDraw = False
+828.4965 	EXP 	textrest: autoDraw = False
+828.4965 	EXP 	textready: autoDraw = False
+828.4965 	EXP 	textblank1000: autoDraw = True
+829.0394 	EXP 	Sound sound_1 reached end of file
+829.5131 	EXP 	textblank1000: autoDraw = False
+829.5131 	EXP 	textblank1000: autoDraw = False
+829.5131 	EXP 	emopic: image = 'emo_pic\\pneutral_7233.jpg'
+829.5131 	EXP 	emopic: autoDraw = True
+834.5294 	EXP 	emopic: autoDraw = False
+834.5294 	EXP 	emopic: autoDraw = False
+834.5294 	EXP 	textreproductionstart: text = '時間估計作業\n\n請透過滑鼠將刺激呈現時間點在以下量尺中\n按下空白鍵進入下一題'
+834.5294 	EXP 	scale: markerPos = None
+834.5294 	EXP 	scale: markerPos = None
+834.5294 	EXP 	textreproductionstart: autoDraw = True
+834.5294 	EXP 	scale: autoDraw = True
+837.5613 	DATA 	Mouse: Left button down, pos=(665,322)
+837.5961 	EXP 	scale: markerPos = 4.085648148148148
+837.6295 	EXP 	scale: markerPos = 4.085648148148148
+837.6628 	EXP 	scale: markerPos = 4.085648148148148
+837.6790 	DATA 	Mouse:  Left button up, pos=(665,322)
+837.6961 	EXP 	scale: markerPos = 4.085648148148148
+837.7295 	EXP 	scale: markerPos = 4.085648148148148
+842.6130 	EXP 	textreproductionstart: autoDraw = False
+842.6130 	EXP 	scale: autoDraw = False
+842.6130 	EXP 	textrest: autoDraw = True
+842.6187 	DATA 	KeyPress:  
+867.5970 	EXP 	Sound sound_2 started
+867.5971 	EXP 	textready: autoDraw = True
+867.6137 	EXP 	textrest: autoDraw = False
+868.1398 	EXP 	Sound sound_2 reached end of file
+872.5808 	EXP 	New trial (rep=0, index=7): {'emo_pic': 'emo_pic\\pnegative_low_6010.jpg', 'duration': 3}
+872.5971 	EXP 	Sound sound_1 started
+872.5971 	EXP 	textready: autoDraw = False
+872.5971 	EXP 	textrest: autoDraw = False
+872.5971 	EXP 	textready: autoDraw = False
+872.5971 	EXP 	textblank1000: autoDraw = True
+873.1396 	EXP 	Sound sound_1 reached end of file
+873.6138 	EXP 	textblank1000: autoDraw = False
+873.6138 	EXP 	textblank1000: autoDraw = False
+873.6138 	EXP 	emopic: image = 'emo_pic\\pnegative_low_6010.jpg'
+873.6138 	EXP 	emopic: autoDraw = True
+876.6301 	EXP 	emopic: autoDraw = False
+876.6301 	EXP 	emopic: autoDraw = False
+876.6301 	EXP 	textreproductionstart: text = '時間估計作業\n\n請透過滑鼠將刺激呈現時間點在以下量尺中\n按下空白鍵進入下一題'
+876.6301 	EXP 	scale: markerPos = None
+876.6301 	EXP 	scale: markerPos = None
+876.6301 	EXP 	textreproductionstart: autoDraw = True
+876.6301 	EXP 	scale: autoDraw = True
+881.2955 	DATA 	Mouse: Left button down, pos=(541,323)
+881.3302 	EXP 	scale: markerPos = 2.6504629629629632
+881.3635 	EXP 	scale: markerPos = 2.6504629629629632
+881.3968 	EXP 	scale: markerPos = 2.6504629629629632
+881.4302 	EXP 	scale: markerPos = 2.6504629629629632
+881.4310 	DATA 	Mouse:  Left button up, pos=(541,323)
+881.4635 	EXP 	scale: markerPos = 2.6504629629629632
+881.7122 	DATA 	Mouse: Left button down, pos=(535,326)
+881.7468 	EXP 	scale: markerPos = 2.569444444444444
+881.7802 	EXP 	scale: markerPos = 2.569444444444444
+881.8135 	EXP 	scale: markerPos = 2.569444444444444
+881.8468 	EXP 	scale: markerPos = 2.569444444444444
+881.8802 	EXP 	scale: markerPos = 2.569444444444444
+881.8964 	DATA 	Mouse:  Left button up, pos=(534,326)
+881.9135 	EXP 	scale: markerPos = 2.569444444444444
+881.9468 	EXP 	scale: markerPos = 2.569444444444444
+891.6210 	DATA 	KeyPress:  
+891.6303 	EXP 	textreproductionstart: autoDraw = False
+891.6303 	EXP 	scale: autoDraw = False
+891.6303 	EXP 	textrest: autoDraw = True
+916.6145 	EXP 	Sound sound_2 started
+916.6145 	EXP 	textready: autoDraw = True
+916.6311 	EXP 	textrest: autoDraw = False
+917.1533 	EXP 	Sound sound_2 reached end of file
+921.5983 	EXP 	New trial (rep=0, index=8): {'emo_pic': 'emo_pic\\pnegative_low_9331.jpg', 'duration': 1}
+921.6146 	EXP 	Sound sound_1 started
+921.6146 	EXP 	textready: autoDraw = False
+921.6146 	EXP 	textrest: autoDraw = False
+921.6146 	EXP 	textready: autoDraw = False
+921.6146 	EXP 	textblank1000: autoDraw = True
+922.1541 	EXP 	Sound sound_1 reached end of file
+922.6312 	EXP 	textblank1000: autoDraw = False
+922.6312 	EXP 	textblank1000: autoDraw = False
+922.6312 	EXP 	emopic: image = 'emo_pic\\pnegative_low_9331.jpg'
+922.6312 	EXP 	emopic: autoDraw = True
+923.6478 	EXP 	emopic: autoDraw = False
+923.6478 	EXP 	emopic: autoDraw = False
+923.6478 	EXP 	textreproductionstart: text = '時間估計作業\n\n請透過滑鼠將刺激呈現時間點在以下量尺中\n按下空白鍵進入下一題'
+923.6478 	EXP 	scale: markerPos = None
+923.6478 	EXP 	scale: markerPos = None
+923.6478 	EXP 	textreproductionstart: autoDraw = True
+923.6478 	EXP 	scale: autoDraw = True
+927.2298 	DATA 	Mouse: Left button down, pos=(355,320)
+927.2811 	EXP 	scale: markerPos = 0.4976851851851849
+927.3145 	EXP 	scale: markerPos = 0.4976851851851849
+927.3478 	EXP 	scale: markerPos = 0.4976851851851849
+927.3812 	EXP 	scale: markerPos = 0.4976851851851849
+927.4145 	EXP 	scale: markerPos = 0.4976851851851849
+927.4478 	EXP 	scale: markerPos = 0.4976851851851849
+927.4811 	EXP 	scale: markerPos = 0.5439814814814814
+927.5145 	EXP 	scale: markerPos = 0.5787037037037037
+927.5478 	EXP 	scale: markerPos = 0.5902777777777779
+927.5811 	EXP 	scale: markerPos = 0.5902777777777779
+927.6145 	EXP 	scale: markerPos = 0.5902777777777779
+927.6478 	EXP 	scale: markerPos = 0.5902777777777779
+927.6641 	DATA 	Mouse:  Left button up, pos=(363,316)
+927.6811 	EXP 	scale: markerPos = 0.5902777777777779
+927.7145 	EXP 	scale: markerPos = 0.5902777777777779
+932.5646 	EXP 	textreproductionstart: autoDraw = False
+932.5646 	EXP 	scale: autoDraw = False
+932.5646 	EXP 	textrest: autoDraw = True
+932.5700 	DATA 	KeyPress:  
+957.5485 	EXP 	Sound sound_2 started
+957.5484 	EXP 	textready: autoDraw = True
+957.5651 	EXP 	textrest: autoDraw = False
+958.0893 	EXP 	Sound sound_2 reached end of file
+962.5322 	EXP 	New trial (rep=0, index=9): {'emo_pic': 'emo_pic\\pnegative_low_2520.jpg', 'duration': 5}
+962.5485 	EXP 	Sound sound_1 started
+962.5485 	EXP 	textready: autoDraw = False
+962.5485 	EXP 	textrest: autoDraw = False
+962.5485 	EXP 	textready: autoDraw = False
+962.5485 	EXP 	textblank1000: autoDraw = True
+963.0893 	EXP 	Sound sound_1 reached end of file
+963.5652 	EXP 	textblank1000: autoDraw = False
+963.5652 	EXP 	textblank1000: autoDraw = False
+963.5652 	EXP 	emopic: image = 'emo_pic\\pnegative_low_2520.jpg'
+963.5652 	EXP 	emopic: autoDraw = True
+968.5815 	EXP 	emopic: autoDraw = False
+968.5815 	EXP 	emopic: autoDraw = False
+968.5815 	EXP 	textreproductionstart: text = '時間估計作業\n\n請透過滑鼠將刺激呈現時間點在以下量尺中\n按下空白鍵進入下一題'
+968.5815 	EXP 	scale: markerPos = None
+968.5815 	EXP 	scale: markerPos = None
+968.5815 	EXP 	textreproductionstart: autoDraw = True
+968.5815 	EXP 	scale: autoDraw = True
+976.4638 	DATA 	Mouse:  Left button up, pos=(675,321)
+976.6136 	DATA 	Mouse: Left button down, pos=(675,321)
+976.6483 	EXP 	scale: markerPos = 4.201388888888888
+976.6817 	EXP 	scale: markerPos = 4.201388888888888
+976.7150 	EXP 	scale: markerPos = 4.201388888888888
+976.7484 	EXP 	scale: markerPos = 4.201388888888888
+976.7817 	EXP 	scale: markerPos = 4.189814814814815
+976.8150 	EXP 	scale: markerPos = 4.1782407407407405
+976.8483 	EXP 	scale: markerPos = 4.1782407407407405
+976.8817 	EXP 	scale: markerPos = 4.1782407407407405
+976.9150 	EXP 	scale: markerPos = 4.1782407407407405
+976.9483 	EXP 	scale: markerPos = 4.1782407407407405
+976.9817 	EXP 	scale: markerPos = 4.155092592592593
+977.0150 	EXP 	scale: markerPos = 4.12037037037037
+977.0483 	EXP 	scale: markerPos = 4.097222222222222
+977.0817 	EXP 	scale: markerPos = 4.085648148148148
+977.1150 	EXP 	scale: markerPos = 4.0740740740740735
+977.1483 	EXP 	scale: markerPos = 4.0740740740740735
+977.1817 	EXP 	scale: markerPos = 4.027777777777778
+977.2150 	EXP 	scale: markerPos = 4.016203703703703
+977.2483 	EXP 	scale: markerPos = 4.016203703703703
+977.2817 	EXP 	scale: markerPos = 4.016203703703703
+977.3150 	EXP 	scale: markerPos = 4.016203703703703
+977.3483 	EXP 	scale: markerPos = 4.016203703703703
+977.3817 	EXP 	scale: markerPos = 4.016203703703703
+977.4150 	EXP 	scale: markerPos = 4.016203703703703
+977.4483 	EXP 	scale: markerPos = 4.016203703703703
+977.4817 	EXP 	scale: markerPos = 4.016203703703703
+977.5150 	EXP 	scale: markerPos = 3.993055555555556
+977.5483 	EXP 	scale: markerPos = 3.9699074074074074
+977.5817 	EXP 	scale: markerPos = 3.8657407407407414
+977.6150 	EXP 	scale: markerPos = 3.8657407407407414
+977.6483 	EXP 	scale: markerPos = 3.8657407407407414
+977.6817 	EXP 	scale: markerPos = 3.8657407407407414
+977.7150 	EXP 	scale: markerPos = 3.8657407407407414
+977.7483 	EXP 	scale: markerPos = 3.8657407407407414
+977.7817 	EXP 	scale: markerPos = 3.8657407407407414
+977.8150 	EXP 	scale: markerPos = 3.8657407407407414
+977.8483 	EXP 	scale: markerPos = 3.8657407407407414
+977.8817 	EXP 	scale: markerPos = 3.8657407407407414
+977.8979 	DATA 	Mouse:  Left button up, pos=(646,322)
+977.9150 	EXP 	scale: markerPos = 3.8657407407407414
+977.9483 	EXP 	scale: markerPos = 3.8657407407407414
+978.8722 	DATA 	KeyPress:  
+978.8817 	EXP 	textreproductionstart: autoDraw = False
+978.8817 	EXP 	scale: autoDraw = False
+978.8817 	EXP 	textrest: autoDraw = True
+1003.8655 	EXP 	Sound sound_2 started
+1003.8659 	EXP 	textready: autoDraw = True
+1003.8825 	EXP 	textrest: autoDraw = False
+1004.4047 	EXP 	Sound sound_2 reached end of file
+1008.8497 	EXP 	New trial (rep=0, index=10): {'emo_pic': 'emo_pic\\positive_low_2314.jpg', 'duration': 5}
+1008.8659 	EXP 	Sound sound_1 started
+1008.8659 	EXP 	textready: autoDraw = False
+1008.8659 	EXP 	textrest: autoDraw = False
+1008.8659 	EXP 	textready: autoDraw = False
+1008.8659 	EXP 	textblank1000: autoDraw = True
+1009.4046 	EXP 	Sound sound_1 reached end of file
+1009.8826 	EXP 	textblank1000: autoDraw = False
+1009.8826 	EXP 	textblank1000: autoDraw = False
+1009.8826 	EXP 	emopic: image = 'emo_pic\\positive_low_2314.jpg'
+1009.8826 	EXP 	emopic: autoDraw = True
+1014.8989 	EXP 	emopic: autoDraw = False
+1014.8989 	EXP 	emopic: autoDraw = False
+1014.8989 	EXP 	textreproductionstart: text = '時間估計作業\n\n請透過滑鼠將刺激呈現時間點在以下量尺中\n按下空白鍵進入下一題'
+1014.8989 	EXP 	scale: markerPos = None
+1014.8989 	EXP 	scale: markerPos = None
+1014.8989 	EXP 	textreproductionstart: autoDraw = True
+1014.8989 	EXP 	scale: autoDraw = True
+1017.8475 	DATA 	Mouse: Left button down, pos=(598,318)
+1017.8823 	EXP 	scale: markerPos = 3.310185185185185
+1017.9156 	EXP 	scale: markerPos = 3.310185185185185
+1017.9323 	EXP 	scale: markerPos = 3.310185185185185
+1017.9490 	EXP 	scale: markerPos = 3.310185185185185
+1017.9823 	EXP 	scale: markerPos = 3.310185185185185
+1018.0156 	EXP 	scale: markerPos = 3.310185185185185
+1018.0318 	DATA 	Mouse:  Left button up, pos=(598,318)
+1018.0490 	EXP 	scale: markerPos = 3.310185185185185
+1018.0823 	EXP 	scale: markerPos = 3.310185185185185
+1018.4809 	DATA 	Mouse: Left button down, pos=(596,318)
+1018.5156 	EXP 	scale: markerPos = 3.2870370370370368
+1018.5490 	EXP 	scale: markerPos = 3.2870370370370368
+1018.5823 	EXP 	scale: markerPos = 3.2870370370370368
+1018.6157 	EXP 	scale: markerPos = 3.2870370370370368
+1018.6165 	DATA 	Mouse:  Left button up, pos=(596,318)
+1018.6490 	EXP 	scale: markerPos = 3.2870370370370368
+1023.3642 	DATA 	Mouse: wheel shift=(0,-1), pos=(766,374)
+1023.4809 	DATA 	Mouse: wheel shift=(0,-1), pos=(766,374)
+1024.2165 	DATA 	Mouse: wheel shift=(0,-1), pos=(952,376)
+1024.3643 	DATA 	Mouse: wheel shift=(0,-1), pos=(953,369)
+1024.4307 	DATA 	Mouse: wheel shift=(0,-1), pos=(953,369)
+1024.4809 	DATA 	Mouse: wheel shift=(0,-1), pos=(953,369)
+1025.6223 	DATA 	KeyPress:  
+1025.6324 	EXP 	textreproductionstart: autoDraw = False
+1025.6324 	EXP 	scale: autoDraw = False
+1025.6324 	EXP 	textrest: autoDraw = True
+1050.6161 	EXP 	Sound sound_2 started
+1050.6162 	EXP 	textready: autoDraw = True
+1050.6328 	EXP 	textrest: autoDraw = False
+1051.1554 	EXP 	Sound sound_2 reached end of file
+1055.6001 	EXP 	New trial (rep=0, index=11): {'emo_pic': 'emo_pic\\pnegative_high_1201.jpg', 'duration': 5}
+1055.6163 	EXP 	Sound sound_1 started
+1055.6164 	EXP 	textready: autoDraw = False
+1055.6164 	EXP 	textrest: autoDraw = False
+1055.6164 	EXP 	textready: autoDraw = False
+1055.6164 	EXP 	textblank1000: autoDraw = True
+1056.1593 	EXP 	Sound sound_1 reached end of file
+1056.6330 	EXP 	textblank1000: autoDraw = False
+1056.6330 	EXP 	textblank1000: autoDraw = False
+1056.6330 	EXP 	emopic: image = 'emo_pic\\pnegative_high_1201.jpg'
+1056.6330 	EXP 	emopic: autoDraw = True
+1061.6497 	EXP 	emopic: autoDraw = False
+1061.6497 	EXP 	emopic: autoDraw = False
+1061.6497 	EXP 	textreproductionstart: text = '時間估計作業\n\n請透過滑鼠將刺激呈現時間點在以下量尺中\n按下空白鍵進入下一題'
+1061.6497 	EXP 	scale: markerPos = None
+1061.6497 	EXP 	scale: markerPos = None
+1061.6497 	EXP 	textreproductionstart: autoDraw = True
+1061.6497 	EXP 	scale: autoDraw = True
+1064.6150 	DATA 	Mouse: Left button down, pos=(718,325)
+1064.6497 	EXP 	scale: markerPos = 4.699074074074074
+1064.6830 	EXP 	scale: markerPos = 4.699074074074074
+1064.7164 	EXP 	scale: markerPos = 4.699074074074074
+1064.7497 	EXP 	scale: markerPos = 4.699074074074074
+1064.7831 	EXP 	scale: markerPos = 4.699074074074074
+1064.8164 	EXP 	scale: markerPos = 4.699074074074074
+1064.8497 	EXP 	scale: markerPos = 4.699074074074074
+1064.8830 	EXP 	scale: markerPos = 4.699074074074074
+1064.9164 	EXP 	scale: markerPos = 4.699074074074074
+1064.9497 	EXP 	scale: markerPos = 4.699074074074074
+1064.9830 	EXP 	scale: markerPos = 4.699074074074074
+1065.0164 	EXP 	scale: markerPos = 4.699074074074074
+1065.0497 	EXP 	scale: markerPos = 4.699074074074074
+1065.0830 	EXP 	scale: markerPos = 4.699074074074074
+1065.1164 	EXP 	scale: markerPos = 4.699074074074074
+1065.1497 	EXP 	scale: markerPos = 4.675925925925926
+1065.1830 	EXP 	scale: markerPos = 4.664351851851852
+1065.2164 	EXP 	scale: markerPos = 4.664351851851852
+1065.2330 	EXP 	scale: markerPos = 4.664351851851852
+1065.2497 	EXP 	scale: markerPos = 4.664351851851852
+1065.2664 	EXP 	scale: markerPos = 4.664351851851852
+1065.2831 	EXP 	scale: markerPos = 4.664351851851852
+1065.2997 	EXP 	scale: markerPos = 4.664351851851852
+1065.3164 	EXP 	scale: markerPos = 4.664351851851852
+1065.3331 	EXP 	scale: markerPos = 4.664351851851852
+1065.3497 	EXP 	scale: markerPos = 4.664351851851852
+1065.3664 	EXP 	scale: markerPos = 4.664351851851852
+1065.3830 	EXP 	scale: markerPos = 4.664351851851852
+1065.3997 	EXP 	scale: markerPos = 4.664351851851852
+1065.4157 	DATA 	Mouse:  Left button up, pos=(715,326)
+1065.4331 	EXP 	scale: markerPos = 4.664351851851852
+1065.4497 	EXP 	scale: markerPos = 4.664351851851852
+1075.8405 	DATA 	KeyPress:  
+1075.8499 	EXP 	textreproductionstart: autoDraw = False
+1075.8499 	EXP 	scale: autoDraw = False
+1075.8499 	EXP 	textrest: autoDraw = True
+1100.8336 	EXP 	Sound sound_2 started
+1100.8336 	EXP 	textready: autoDraw = True
+1100.8503 	EXP 	textrest: autoDraw = False
+1101.3727 	EXP 	Sound sound_2 reached end of file
+1105.8176 	EXP 	New trial (rep=0, index=12): {'emo_pic': 'emo_pic\\pnegative_high_6230.jpg', 'duration': 1}
+1105.8338 	EXP 	Sound sound_1 started
+1105.8338 	EXP 	textready: autoDraw = False
+1105.8338 	EXP 	textrest: autoDraw = False
+1105.8338 	EXP 	textready: autoDraw = False
+1105.8338 	EXP 	textblank1000: autoDraw = True
+1106.3726 	EXP 	Sound sound_1 reached end of file
+1106.8509 	EXP 	textblank1000: autoDraw = False
+1106.8509 	EXP 	textblank1000: autoDraw = False
+1106.8509 	EXP 	emopic: image = 'emo_pic\\pnegative_high_6230.jpg'
+1106.8509 	EXP 	emopic: autoDraw = True
+1107.8674 	EXP 	emopic: autoDraw = False
+1107.8674 	EXP 	emopic: autoDraw = False
+1107.8674 	EXP 	textreproductionstart: text = '時間估計作業\n\n請透過滑鼠將刺激呈現時間點在以下量尺中\n按下空白鍵進入下一題'
+1107.8674 	EXP 	scale: markerPos = None
+1107.8674 	EXP 	scale: markerPos = None
+1107.8674 	EXP 	textreproductionstart: autoDraw = True
+1107.8674 	EXP 	scale: autoDraw = True
+1111.5161 	DATA 	Mouse: Left button down, pos=(394,330)
+1111.5674 	EXP 	scale: markerPos = 0.9490740740740742
+1111.6007 	EXP 	scale: markerPos = 0.9490740740740742
+1111.6341 	EXP 	scale: markerPos = 0.9490740740740742
+1111.6674 	EXP 	scale: markerPos = 0.9490740740740742
+1111.7008 	EXP 	scale: markerPos = 0.9490740740740742
+1111.7341 	EXP 	scale: markerPos = 0.9490740740740742
+1111.7674 	EXP 	scale: markerPos = 0.9490740740740742
+1111.8007 	EXP 	scale: markerPos = 0.9490740740740742
+1111.8341 	EXP 	scale: markerPos = 0.9490740740740742
+1111.8674 	EXP 	scale: markerPos = 0.9490740740740742
+1111.9008 	EXP 	scale: markerPos = 0.9490740740740742
+1111.9341 	EXP 	scale: markerPos = 0.9490740740740742
+1111.9674 	EXP 	scale: markerPos = 0.9490740740740742
+1112.0008 	EXP 	scale: markerPos = 0.9722222222222223
+1112.0341 	EXP 	scale: markerPos = 0.9837962962962965
+1112.0674 	EXP 	scale: markerPos = 0.9837962962962965
+1112.1007 	EXP 	scale: markerPos = 0.9953703703703707
+1112.1015 	DATA 	Mouse:  Left button up, pos=(398,325)
+1112.1341 	EXP 	scale: markerPos = 0.9953703703703707
+1131.2844 	EXP 	textreproductionstart: autoDraw = False
+1131.2844 	EXP 	scale: autoDraw = False
+1131.2844 	EXP 	textrest: autoDraw = True
+1131.2896 	DATA 	KeyPress:  
+1156.2682 	EXP 	Sound sound_2 started
+1156.2683 	EXP 	textready: autoDraw = True
+1156.2850 	EXP 	textrest: autoDraw = False
+1156.8099 	EXP 	Sound sound_2 reached end of file
+1161.2520 	EXP 	New trial (rep=0, index=13): {'emo_pic': 'emo_pic\\pnegative_high_1300.jpg', 'duration': 3}
+1161.2683 	EXP 	Sound sound_1 started
+1161.2684 	EXP 	textready: autoDraw = False
+1161.2684 	EXP 	textrest: autoDraw = False
+1161.2684 	EXP 	textready: autoDraw = False
+1161.2684 	EXP 	textblank1000: autoDraw = True
+1161.8096 	EXP 	Sound sound_1 reached end of file
+1162.2851 	EXP 	textblank1000: autoDraw = False
+1162.2851 	EXP 	textblank1000: autoDraw = False
+1162.2851 	EXP 	emopic: image = 'emo_pic\\pnegative_high_1300.jpg'
+1162.2851 	EXP 	emopic: autoDraw = True
+1165.3013 	EXP 	emopic: autoDraw = False
+1165.3013 	EXP 	emopic: autoDraw = False
+1165.3013 	EXP 	textreproductionstart: text = '時間估計作業\n\n請透過滑鼠將刺激呈現時間點在以下量尺中\n按下空白鍵進入下一題'
+1165.3013 	EXP 	scale: markerPos = None
+1165.3013 	EXP 	scale: markerPos = None
+1165.3013 	EXP 	textreproductionstart: autoDraw = True
+1165.3013 	EXP 	scale: autoDraw = True
+1168.4667 	DATA 	Mouse: Left button down, pos=(512,319)
+1168.5014 	EXP 	scale: markerPos = 2.314814814814815
+1168.5347 	EXP 	scale: markerPos = 2.372685185185185
+1168.5680 	EXP 	scale: markerPos = 2.384259259259259
+1168.6014 	EXP 	scale: markerPos = 2.4421296296296298
+1168.6347 	EXP 	scale: markerPos = 2.5115740740740744
+1168.6680 	EXP 	scale: markerPos = 2.627314814814815
+1168.7014 	EXP 	scale: markerPos = 2.673611111111111
+1168.7347 	EXP 	scale: markerPos = 2.673611111111111
+1168.7680 	EXP 	scale: markerPos = 2.673611111111111
+1168.8014 	EXP 	scale: markerPos = 2.673611111111111
+1168.8347 	EXP 	scale: markerPos = 2.662037037037037
+1168.8680 	EXP 	scale: markerPos = 2.627314814814815
+1168.9014 	EXP 	scale: markerPos = 2.5810185185185173
+1168.9347 	EXP 	scale: markerPos = 2.546296296296296
+1168.9680 	EXP 	scale: markerPos = 2.5000000000000004
+1169.0014 	EXP 	scale: markerPos = 2.4652777777777777
+1169.0347 	EXP 	scale: markerPos = 2.4652777777777777
+1169.0680 	EXP 	scale: markerPos = 2.453703703703703
+1169.1014 	EXP 	scale: markerPos = 2.453703703703703
+1169.1347 	EXP 	scale: markerPos = 2.453703703703703
+1169.1680 	EXP 	scale: markerPos = 2.453703703703703
+1169.2014 	EXP 	scale: markerPos = 2.4421296296296298
+1169.2347 	EXP 	scale: markerPos = 2.4074074074074074
+1169.2681 	EXP 	scale: markerPos = 2.372685185185185
+1169.3014 	EXP 	scale: markerPos = 2.3611111111111107
+1169.3347 	EXP 	scale: markerPos = 2.3495370370370368
+1169.3509 	DATA 	Mouse:  Left button up, pos=(515,326)
+1169.3681 	EXP 	scale: markerPos = 2.3495370370370368
+1169.4014 	EXP 	scale: markerPos = 2.3495370370370368
+1197.6923 	DATA 	KeyPress:  
+1197.7018 	EXP 	textreproductionstart: autoDraw = False
+1197.7018 	EXP 	scale: autoDraw = False
+1197.7018 	EXP 	textrest: autoDraw = True
+1222.6860 	EXP 	Sound sound_2 started
+1222.6860 	EXP 	textready: autoDraw = True
+1222.7027 	EXP 	textrest: autoDraw = False
+1223.2248 	EXP 	Sound sound_2 reached end of file
+1227.6698 	EXP 	New trial (rep=0, index=14): {'emo_pic': 'emo_pic\\positive_high_8300.jpg', 'duration': 3}
+1227.6861 	EXP 	Sound sound_1 started
+1227.6861 	EXP 	textready: autoDraw = False
+1227.6861 	EXP 	textrest: autoDraw = False
+1227.6861 	EXP 	textready: autoDraw = False
+1227.6861 	EXP 	textblank1000: autoDraw = True
+1228.2252 	EXP 	Sound sound_1 reached end of file
+1228.7028 	EXP 	textblank1000: autoDraw = False
+1228.7028 	EXP 	textblank1000: autoDraw = False
+1228.7028 	EXP 	emopic: image = 'emo_pic\\positive_high_8300.jpg'
+1228.7028 	EXP 	emopic: autoDraw = True
+1231.7190 	EXP 	emopic: autoDraw = False
+1231.7190 	EXP 	emopic: autoDraw = False
+1231.7190 	EXP 	textreproductionstart: text = '時間估計作業\n\n請透過滑鼠將刺激呈現時間點在以下量尺中\n按下空白鍵進入下一題'
+1231.7190 	EXP 	scale: markerPos = None
+1231.7190 	EXP 	scale: markerPos = None
+1231.7190 	EXP 	textreproductionstart: autoDraw = True
+1231.7190 	EXP 	scale: autoDraw = True
+1234.5843 	DATA 	Mouse: Left button down, pos=(511,342)
+1234.6191 	EXP 	scale: markerPos = 2.303240740740741
+1234.6524 	EXP 	scale: markerPos = 2.303240740740741
+1234.6857 	EXP 	scale: markerPos = 2.314814814814815
+1234.7191 	EXP 	scale: markerPos = 2.3379629629629632
+1234.7524 	EXP 	scale: markerPos = 2.3495370370370368
+1234.7857 	EXP 	scale: markerPos = 2.3611111111111107
+1234.8191 	EXP 	scale: markerPos = 2.372685185185185
+1234.8524 	EXP 	scale: markerPos = 2.372685185185185
+1234.8857 	EXP 	scale: markerPos = 2.372685185185185
+1234.9191 	EXP 	scale: markerPos = 2.372685185185185
+1234.9524 	EXP 	scale: markerPos = 2.372685185185185
+1234.9857 	EXP 	scale: markerPos = 2.372685185185185
+1235.0019 	DATA 	Mouse:  Left button up, pos=(517,334)
+1235.0191 	EXP 	scale: markerPos = 2.372685185185185
+1235.0524 	EXP 	scale: markerPos = 2.372685185185185
+1240.8100 	DATA 	KeyPress:  
+1240.8191 	EXP 	textreproductionstart: autoDraw = False
+1240.8191 	EXP 	scale: autoDraw = False
+1240.8191 	EXP 	textrest: autoDraw = True
+1265.8033 	EXP 	Sound sound_2 started
+1265.8033 	EXP 	textready: autoDraw = True
+1265.8200 	EXP 	textrest: autoDraw = False
+1266.3424 	EXP 	Sound sound_2 reached end of file
+1270.7872 	EXP 	New trial (rep=0, index=15): {'emo_pic': 'emo_pic\\pneutral_5500.jpg', 'duration': 1}
+1270.8034 	EXP 	Sound sound_1 started
+1270.8034 	EXP 	textready: autoDraw = False
+1270.8034 	EXP 	textrest: autoDraw = False
+1270.8034 	EXP 	textready: autoDraw = False
+1270.8034 	EXP 	textblank1000: autoDraw = True
+1271.3429 	EXP 	Sound sound_1 reached end of file
+1271.8201 	EXP 	textblank1000: autoDraw = False
+1271.8201 	EXP 	textblank1000: autoDraw = False
+1271.8201 	EXP 	emopic: image = 'emo_pic\\pneutral_5500.jpg'
+1271.8201 	EXP 	emopic: autoDraw = True
+1272.8363 	EXP 	emopic: autoDraw = False
+1272.8363 	EXP 	emopic: autoDraw = False
+1272.8363 	EXP 	textreproductionstart: text = '時間估計作業\n\n請透過滑鼠將刺激呈現時間點在以下量尺中\n按下空白鍵進入下一題'
+1272.8363 	EXP 	scale: markerPos = None
+1272.8363 	EXP 	scale: markerPos = None
+1272.8363 	EXP 	textreproductionstart: autoDraw = True
+1272.8363 	EXP 	scale: autoDraw = True
+1275.4349 	DATA 	Mouse: Left button down, pos=(350,328)
+1275.4697 	EXP 	scale: markerPos = 0.4398148148148151
+1275.5030 	EXP 	scale: markerPos = 0.4398148148148151
+1275.5364 	EXP 	scale: markerPos = 0.4398148148148151
+1275.5697 	EXP 	scale: markerPos = 0.4398148148148151
+1275.5858 	DATA 	Mouse:  Left button up, pos=(350,328)
+1275.6031 	EXP 	scale: markerPos = 0.4398148148148151
+1275.6364 	EXP 	scale: markerPos = 0.4398148148148151
+1280.5031 	EXP 	textreproductionstart: autoDraw = False
+1280.5031 	EXP 	scale: autoDraw = False
+1280.5031 	EXP 	textrest: autoDraw = True
+1280.5083 	DATA 	KeyPress:  
+1305.4869 	EXP 	Sound sound_2 started
+1305.4869 	EXP 	textready: autoDraw = True
+1305.5035 	EXP 	textrest: autoDraw = False
+1306.0259 	EXP 	Sound sound_2 reached end of file
+1310.4707 	EXP 	New trial (rep=0, index=16): {'emo_pic': 'emo_pic\\positive_high_8492.jpg', 'duration': 1}
+1310.4869 	EXP 	Sound sound_1 started
+1310.4869 	EXP 	textready: autoDraw = False
+1310.4869 	EXP 	textrest: autoDraw = False
+1310.4869 	EXP 	textready: autoDraw = False
+1310.4869 	EXP 	textblank1000: autoDraw = True
+1311.0299 	EXP 	Sound sound_1 reached end of file
+1311.5036 	EXP 	textblank1000: autoDraw = False
+1311.5036 	EXP 	textblank1000: autoDraw = False
+1311.5036 	EXP 	emopic: image = 'emo_pic\\positive_high_8492.jpg'
+1311.5036 	EXP 	emopic: autoDraw = True
+1312.5204 	EXP 	emopic: autoDraw = False
+1312.5204 	EXP 	emopic: autoDraw = False
+1312.5204 	EXP 	textreproductionstart: text = '時間估計作業\n\n請透過滑鼠將刺激呈現時間點在以下量尺中\n按下空白鍵進入下一題'
+1312.5204 	EXP 	scale: markerPos = None
+1312.5204 	EXP 	scale: markerPos = None
+1312.5204 	EXP 	textreproductionstart: autoDraw = True
+1312.5204 	EXP 	scale: autoDraw = True
+1314.6690 	DATA 	Mouse: Left button down, pos=(401,320)
+1314.7205 	EXP 	scale: markerPos = 1.030092592592593
+1314.7538 	EXP 	scale: markerPos = 1.030092592592593
+1314.7871 	EXP 	scale: markerPos = 1.030092592592593
+1314.8205 	EXP 	scale: markerPos = 1.030092592592593
+1314.8540 	EXP 	scale: markerPos = 1.030092592592593
+1314.8702 	DATA 	Mouse:  Left button up, pos=(401,320)
+1314.8873 	EXP 	scale: markerPos = 1.030092592592593
+1314.9206 	EXP 	scale: markerPos = 1.030092592592593
+1320.2956 	DATA 	KeyPress:  
+1320.3042 	EXP 	textreproductionstart: autoDraw = False
+1320.3042 	EXP 	scale: autoDraw = False
+1320.3042 	EXP 	textrest: autoDraw = True
+1345.3046 	EXP 	Sound sound_2 started
+1345.3046 	EXP 	textrest: autoDraw = False
+1345.3046 	EXP 	textready: autoDraw = True
+1345.8443 	EXP 	Sound sound_2 reached end of file
+1350.2884 	EXP 	New trial (rep=0, index=17): {'emo_pic': 'emo_pic\\positive_high_8370.jpg', 'duration': 7}
+1350.3047 	EXP 	Sound sound_1 started
+1350.3047 	EXP 	textready: autoDraw = False
+1350.3047 	EXP 	textrest: autoDraw = False
+1350.3047 	EXP 	textready: autoDraw = False
+1350.3047 	EXP 	textblank1000: autoDraw = True
+1350.8438 	EXP 	Sound sound_1 reached end of file
+1351.3214 	EXP 	textblank1000: autoDraw = False
+1351.3214 	EXP 	textblank1000: autoDraw = False
+1351.3214 	EXP 	emopic: image = 'emo_pic\\positive_high_8370.jpg'
+1351.3214 	EXP 	emopic: autoDraw = True
+1358.3377 	EXP 	emopic: autoDraw = False
+1358.3377 	EXP 	emopic: autoDraw = False
+1358.3377 	EXP 	textreproductionstart: text = '時間估計作業\n\n請透過滑鼠將刺激呈現時間點在以下量尺中\n按下空白鍵進入下一題'
+1358.3377 	EXP 	scale: markerPos = None
+1358.3377 	EXP 	scale: markerPos = None
+1358.3377 	EXP 	textreproductionstart: autoDraw = True
+1358.3377 	EXP 	scale: autoDraw = True
+1361.5196 	DATA 	Mouse: Left button down, pos=(766,329)
+1361.5544 	EXP 	scale: markerPos = 5.25462962962963
+1361.5878 	EXP 	scale: markerPos = 5.266203703703704
+1361.6211 	EXP 	scale: markerPos = 5.266203703703704
+1361.6373 	DATA 	Mouse:  Left button up, pos=(767,328)
+1361.6544 	EXP 	scale: markerPos = 5.266203703703704
+1361.6878 	EXP 	scale: markerPos = 5.266203703703704
+1368.1283 	DATA 	KeyPress:  
+1368.1383 	EXP 	textreproductionstart: autoDraw = False
+1368.1383 	EXP 	scale: autoDraw = False
+1368.1383 	EXP 	textrest: autoDraw = True
+1393.1220 	EXP 	Sound sound_2 started
+1393.1220 	EXP 	textready: autoDraw = True
+1393.1387 	EXP 	textrest: autoDraw = False
+1393.6615 	EXP 	Sound sound_2 reached end of file
+1398.1059 	EXP 	New trial (rep=0, index=18): {'emo_pic': 'emo_pic\\pnegative_low_2100.jpg', 'duration': 7}
+1398.1221 	EXP 	Sound sound_1 started
+1398.1221 	EXP 	textready: autoDraw = False
+1398.1221 	EXP 	textrest: autoDraw = False
+1398.1221 	EXP 	textready: autoDraw = False
+1398.1221 	EXP 	textblank1000: autoDraw = True
+1398.6616 	EXP 	Sound sound_1 reached end of file
+1399.1388 	EXP 	textblank1000: autoDraw = False
+1399.1388 	EXP 	textblank1000: autoDraw = False
+1399.1388 	EXP 	emopic: image = 'emo_pic\\pnegative_low_2100.jpg'
+1399.1388 	EXP 	emopic: autoDraw = True
+1406.1554 	EXP 	emopic: autoDraw = False
+1406.1554 	EXP 	emopic: autoDraw = False
+1406.1554 	EXP 	textreproductionstart: text = '時間估計作業\n\n請透過滑鼠將刺激呈現時間點在以下量尺中\n按下空白鍵進入下一題'
+1406.1554 	EXP 	scale: markerPos = None
+1406.1554 	EXP 	scale: markerPos = None
+1406.1554 	EXP 	textreproductionstart: autoDraw = True
+1406.1554 	EXP 	scale: autoDraw = True
+1408.9375 	DATA 	Mouse: Left button down, pos=(838,326)
+1408.9888 	EXP 	scale: markerPos = 6.087962962962964
+1409.0221 	EXP 	scale: markerPos = 6.087962962962964
+1409.0555 	EXP 	scale: markerPos = 6.087962962962964
+1409.0888 	EXP 	scale: markerPos = 6.087962962962964
+1409.1221 	EXP 	scale: markerPos = 6.087962962962964
+1409.1555 	EXP 	scale: markerPos = 6.087962962962964
+1409.1888 	EXP 	scale: markerPos = 6.087962962962964
+1409.2221 	EXP 	scale: markerPos = 6.087962962962964
+1409.2555 	EXP 	scale: markerPos = 6.087962962962964
+1409.2888 	EXP 	scale: markerPos = 6.087962962962964
+1409.3221 	EXP 	scale: markerPos = 6.087962962962964
+1409.3555 	EXP 	scale: markerPos = 6.087962962962964
+1409.3888 	EXP 	scale: markerPos = 6.087962962962964
+1409.4221 	EXP 	scale: markerPos = 6.087962962962964
+1409.4555 	EXP 	scale: markerPos = 6.087962962962964
+1409.4888 	EXP 	scale: markerPos = 6.087962962962964
+1409.5221 	EXP 	scale: markerPos = 6.087962962962964
+1409.5555 	EXP 	scale: markerPos = 6.087962962962964
+1409.5888 	EXP 	scale: markerPos = 6.087962962962964
+1409.5897 	DATA 	Mouse:  Left button up, pos=(838,325)
+1409.6221 	EXP 	scale: markerPos = 6.087962962962964
+1427.5059 	EXP 	textreproductionstart: autoDraw = False
+1427.5059 	EXP 	scale: autoDraw = False
+1427.5059 	EXP 	textrest: autoDraw = True
+1427.5113 	DATA 	KeyPress:  
+1452.4896 	EXP 	Sound sound_2 started
+1452.4896 	EXP 	textready: autoDraw = True
+1452.5063 	EXP 	textrest: autoDraw = False
+1453.0301 	EXP 	Sound sound_2 reached end of file
+1457.4735 	EXP 	New trial (rep=0, index=19): {'emo_pic': 'emo_pic\\positive_low_7325.jpg', 'duration': 3}
+1457.4897 	EXP 	Sound sound_1 started
+1457.4897 	EXP 	textready: autoDraw = False
+1457.4897 	EXP 	textrest: autoDraw = False
+1457.4897 	EXP 	textready: autoDraw = False
+1457.4897 	EXP 	textblank1000: autoDraw = True
+1458.0296 	EXP 	Sound sound_1 reached end of file
+1458.5064 	EXP 	textblank1000: autoDraw = False
+1458.5064 	EXP 	textblank1000: autoDraw = False
+1458.5064 	EXP 	emopic: image = 'emo_pic\\positive_low_7325.jpg'
+1458.5064 	EXP 	emopic: autoDraw = True
+1461.5226 	EXP 	emopic: autoDraw = False
+1461.5226 	EXP 	emopic: autoDraw = False
+1461.5226 	EXP 	textreproductionstart: text = '時間估計作業\n\n請透過滑鼠將刺激呈現時間點在以下量尺中\n按下空白鍵進入下一題'
+1461.5226 	EXP 	scale: markerPos = None
+1461.5226 	EXP 	scale: markerPos = None
+1461.5226 	EXP 	textreproductionstart: autoDraw = True
+1461.5226 	EXP 	scale: autoDraw = True
+1465.0045 	DATA 	Mouse: Left button down, pos=(512,317)
+1465.0394 	EXP 	scale: markerPos = 2.314814814814815
+1465.0727 	EXP 	scale: markerPos = 2.314814814814815
+1465.1060 	EXP 	scale: markerPos = 2.314814814814815
+1465.1394 	EXP 	scale: markerPos = 2.314814814814815
+1465.1727 	EXP 	scale: markerPos = 2.314814814814815
+1465.2060 	EXP 	scale: markerPos = 2.314814814814815
+1465.2394 	EXP 	scale: markerPos = 2.314814814814815
+1465.2727 	EXP 	scale: markerPos = 2.314814814814815
+1465.3061 	EXP 	scale: markerPos = 2.314814814814815
+1465.3394 	EXP 	scale: markerPos = 2.2800925925925926
+1465.3727 	EXP 	scale: markerPos = 2.2800925925925926
+1465.4060 	EXP 	scale: markerPos = 2.2800925925925926
+1465.4394 	EXP 	scale: markerPos = 2.2800925925925926
+1465.4727 	EXP 	scale: markerPos = 2.2800925925925926
+1465.5061 	EXP 	scale: markerPos = 2.2800925925925926
+1465.5394 	EXP 	scale: markerPos = 2.2800925925925926
+1465.5727 	EXP 	scale: markerPos = 2.2800925925925926
+1465.5735 	DATA 	Mouse:  Left button up, pos=(509,317)
+1465.6061 	EXP 	scale: markerPos = 2.2800925925925926
+1470.5963 	DATA 	KeyPress:  
+1470.6066 	EXP 	textreproductionstart: autoDraw = False
+1470.6066 	EXP 	scale: autoDraw = False
+1470.6066 	EXP 	textrest: autoDraw = True
+1495.5903 	EXP 	Sound sound_2 started
+1495.5903 	EXP 	textready: autoDraw = True
+1495.6070 	EXP 	textrest: autoDraw = False
+1496.1301 	EXP 	Sound sound_2 reached end of file
+1500.5904 	EXP 	textready: autoDraw = False
+1500.5904 	EXP 	textrest: autoDraw = False
+1500.5904 	EXP 	textready: autoDraw = False
+1500.5904 	EXP 	textEndMessage: autoDraw = True
+1504.4579 	DATA 	Keypress: escape
+1504.7847 	EXP 	window1: mouseVisible = True
